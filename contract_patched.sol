@@ -1,23 +1,48 @@
 pragma solidity ^0.8.0;
 
-contract VulnerableBank {
+contract PaymentVault {
 
-    mapping(address => uint) public balances;
+    address public owner;
+    mapping(address => uint256) public balances;
 
+    constructor() {
+        owner = msg.sender;
+    }
+
+    // Deposit funds into vault
     function deposit() public payable {
         balances[msg.sender] += msg.value;
     }
 
-    function withdraw() public {
-        uint amount = balances[msg.sender];
+    // ❌ Vulnerable withdraw (Reentrancy)
+    function withdraw(uint256 amount) public {
+        require(balances[msg.sender] >= amount, "Insufficient balance");
 
-        require(amount > 0, "No balance");
-
-        balances[msg.sender] = 0;
-
+        // External call before state update
         (bool success,) = msg.sender.call{value: amount}("");
         require(success, "Transfer failed");
 
-
+        balances[msg.sender] -= amount;
     }
+
+    // ❌ tx.origin vulnerability
+    function emergencyWithdraw() public {
+        require(tx.origin == owner, "Not owner");
+
+        payable(msg.sender).transfer(address(this).balance);
+    }
+
+    // ❌ Missing access control
+    function setOwner(address newOwner) public {
+        owner = newOwner;
+    }
+
+    // ❌ Unsafe arithmetic (simulated logic bug)
+    function increaseBalance(uint256 value) public {
+        unchecked {
+            balances[msg.sender] += value;
+        }
+    }
+
+    receive() external payable {}
 }
