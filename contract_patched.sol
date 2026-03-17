@@ -20,8 +20,8 @@ contract PaymentVault {
 
         // External call before state update
         balances[msg.sender] -= amount; // SECURITY FIX: state update before external call (CEI)
-        (bool success,) = msg.sender.call{value: amount}(\"\");
-        require(success, \"Transfer failed\");
+        (bool success,) = msg.sender.call{value: amount}("");
+        require(success, "Transfer failed");
     }
 
 
@@ -33,7 +33,7 @@ contract PaymentVault {
 
 
     function setOwner(address newOwner) public {
-        require(msg.sender == owner, \"Not owner\"); // SECURITY FIX: access control added
+        require(msg.sender == owner, "Not owner"); // SECURITY FIX: access control added
         owner = newOwner;
     }
 
