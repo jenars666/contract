@@ -1,0 +1,1576 @@
+[2026-03-18 00:43:05] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 00:43:21] [INFO] [smartpatch.api.routes] Analyze request received: filename=test.sol
+[2026-03-18 00:43:21] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773774801809_4532.sol
+[2026-03-18 00:43:21] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773774801809_4532.sol
+[2026-03-18 00:43:21] [ERROR] [smartpatch.api.routes] Slither not installed: Slither CLI not found. Install using `pip install slither-analyzer` and ensure `slither --version` works in your terminal.
+[2026-03-18 00:43:21] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773774801809_4532.sol
+[2026-03-18 00:49:24] [INFO] [smartpatch.api.routes] Analyze request received: filename=t.sol
+[2026-03-18 00:49:24] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773775164174_6218.sol
+[2026-03-18 00:49:24] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773775164174_6218.sol
+[2026-03-18 00:49:24] [ERROR] [smartpatch.api.routes] Slither not installed: Slither CLI not found. Install using `pip install slither-analyzer` and ensure `slither --version` works in your terminal.
+[2026-03-18 00:49:24] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773775164174_6218.sol
+[2026-03-18 00:53:01] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 00:54:25] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 00:54:25] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773775465535_5268.sol
+[2026-03-18 00:54:25] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773775465535_5268.sol
+[2026-03-18 00:54:25] [ERROR] [smartpatch.api.routes] Slither not installed: Slither CLI not found. Install using `pip install slither-analyzer` and ensure `slither --version` works in your terminal.
+[2026-03-18 00:54:25] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773775465535_5268.sol
+[2026-03-18 00:59:02] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 00:59:02] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773775742743_3682.sol
+[2026-03-18 00:59:02] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773775742743_3682.sol
+[2026-03-18 00:59:02] [ERROR] [smartpatch.api.routes] Slither not installed: Slither CLI not found. Install using `pip install slither-analyzer` and ensure `slither --version` works in your terminal.
+[2026-03-18 00:59:02] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773775742743_3682.sol
+[2026-03-18 01:07:30] [INFO] [smartpatch.api.routes] Analyze request received: filename=t.sol
+[2026-03-18 01:07:30] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773776250348_3377.sol
+[2026-03-18 01:07:30] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773776250348_3377.sol
+[2026-03-18 01:07:30] [ERROR] [smartpatch.api.routes] Slither not installed: Slither CLI not found. Install using `pip install slither-analyzer` and ensure `slither --version` works in your terminal.
+[2026-03-18 01:07:30] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773776250348_3377.sol
+[2026-03-18 01:08:20] [INFO] [smartpatch.api.routes] Analyze request received: filename=t.sol
+[2026-03-18 01:08:20] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773776300006_7528.sol
+[2026-03-18 01:08:20] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773776300006_7528.sol
+[2026-03-18 01:08:20] [ERROR] [smartpatch.api.routes] Slither not installed: Slither CLI not found. Install using `pip install slither-analyzer` and ensure `slither --version` works in your terminal.
+[2026-03-18 01:08:20] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773776300006_7528.sol
+[2026-03-18 01:13:25] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 01:31:27] [INFO] [smartpatch.api.routes] Analyze request received: filename=t.sol
+[2026-03-18 01:31:27] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773777687155_6505.sol
+[2026-03-18 01:31:27] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773777687155_6505.sol
+[2026-03-18 01:31:27] [ERROR] [smartpatch.api.routes] Slither not installed: Slither CLI not found. Install using `pip install slither-analyzer` and ensure `slither --version` works in your terminal.
+[2026-03-18 01:31:27] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773777687155_6505.sol
+[2026-03-18 01:31:57] [INFO] [smartpatch.api.routes] Analyze request received: filename=t.sol
+[2026-03-18 01:31:57] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773777717885_2040.sol
+[2026-03-18 01:31:57] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773777717885_2040.sol
+[2026-03-18 01:31:57] [ERROR] [smartpatch.api.routes] Slither not installed: Slither CLI not found. Install using `pip install slither-analyzer` and ensure `slither --version` works in your terminal.
+[2026-03-18 01:31:57] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773777717885_2040.sol
+[2026-03-18 01:32:13] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773777733267_8145.sol
+[2026-03-18 01:32:13] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773777733267_8145.sol
+[2026-03-18 01:32:14] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773777733267_8145.sol
+[2026-03-18 01:33:37] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 01:33:45] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 01:34:12] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 01:34:12] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773777852354_6744.sol
+[2026-03-18 01:34:12] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773777852354_6744.sol
+[2026-03-18 01:34:12] [ERROR] [smartpatch.api.routes] Slither not installed: Slither CLI not found. Install using `pip install slither-analyzer` and ensure `slither --version` works in your terminal.
+[2026-03-18 01:34:12] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773777852354_6744.sol
+[2026-03-18 01:36:59] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 01:37:16] [INFO] [smartpatch.api.routes] Analyze request received: filename=t.sol
+[2026-03-18 01:37:16] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773778036941_8899.sol
+[2026-03-18 01:37:16] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773778036941_8899.sol
+[2026-03-18 01:37:16] [ERROR] [smartpatch.api.routes] Slither not installed: Slither CLI not found. Install using `pip install slither-analyzer` and ensure `slither --version` works in your terminal.
+[2026-03-18 01:37:16] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773778036941_8899.sol
+[2026-03-18 01:37:53] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 01:38:43] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 01:39:54] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 01:40:24] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 01:40:47] [INFO] [smartpatch.api.routes] Analyze request received: filename=t.sol
+[2026-03-18 01:40:47] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773778247239_5831.sol
+[2026-03-18 01:40:47] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773778247239_5831.sol
+[2026-03-18 01:40:49] [ERROR] [smartpatch.api.routes] Slither parse failure: Slither returned empty JSON output. 'solc --version' running
+Traceback (most recent call last):
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 381, in get_version
+    with subprocess.Popen(
+         ~~~~~~~~~~~~~~~~^
+        cmd,
+        ^^^^
+    ...<3 lines>...
+        executable=shutil.which(cmd[0]),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as process:
+    ^
+  File "c:\python314\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python314\Lib\subprocess.py", line 1552, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\Nandha\.venv\Scripts\slither.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 727, in main
+    main_impl(all_detector_classes=detectors, all_printer_classes=printers)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 833, in main_impl
+    ) = process_all(filename, args, detector_classes, printer_classes)
+        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 96, in process_all
+    compilations = compile_all(target, **vars(args))
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 718, in compile_all
+    compilations.append(CryticCompile(target, **kwargs))
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 207, in __init__
+    self._compile(**kwargs)
+    ~~~~~~~~~~~~~^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 629, in _compile
+    self._platform.compile(self, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 151, in compile
+    targets_json = _get_targets_json(compilation_unit, self._target, **kwargs)
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 280, in _get_targets_json
+    return _run_solc(
+        compilation_unit,
+    ...<6 lines>...
+        force_legacy_json=force_legacy_json,
+    )
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 497, in _run_solc
+    compiler="solc", version=get_version(solc, env), optimized=is_optimized(solc_arguments)
+                             ~~~~~~~~~~~^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 401, in get_version
+    raise InvalidCompilation(error)
+crytic_compile.platform.exceptions.InvalidCompilation: [WinError 2] The system cannot find the file specified
+[2026-03-18 01:40:49] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773778247239_5831.sol
+[2026-03-18 01:46:41] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 01:46:42] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 01:46:47] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 01:46:59] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 01:46:59] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773778619723_4490.sol
+[2026-03-18 01:46:59] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773778619723_4490.sol
+[2026-03-18 01:47:01] [ERROR] [smartpatch.api.routes] Slither parse failure: Slither returned empty JSON output. 'solc --version' running
+Traceback (most recent call last):
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 381, in get_version
+    with subprocess.Popen(
+         ~~~~~~~~~~~~~~~~^
+        cmd,
+        ^^^^
+    ...<3 lines>...
+        executable=shutil.which(cmd[0]),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as process:
+    ^
+  File "c:\python314\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python314\Lib\subprocess.py", line 1552, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\Nandha\.venv\Scripts\slither.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 727, in main
+    main_impl(all_detector_classes=detectors, all_printer_classes=printers)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 833, in main_impl
+    ) = process_all(filename, args, detector_classes, printer_classes)
+        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 96, in process_all
+    compilations = compile_all(target, **vars(args))
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 718, in compile_all
+    compilations.append(CryticCompile(target, **kwargs))
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 207, in __init__
+    self._compile(**kwargs)
+    ~~~~~~~~~~~~~^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 629, in _compile
+    self._platform.compile(self, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 151, in compile
+    targets_json = _get_targets_json(compilation_unit, self._target, **kwargs)
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 280, in _get_targets_json
+    return _run_solc(
+        compilation_unit,
+    ...<6 lines>...
+        force_legacy_json=force_legacy_json,
+    )
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 497, in _run_solc
+    compiler="solc", version=get_version(solc, env), optimized=is_optimized(solc_arguments)
+                             ~~~~~~~~~~~^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 401, in get_version
+    raise InvalidCompilation(error)
+crytic_compile.platform.exceptions.InvalidCompilation: [WinError 2] The system cannot find the file specified
+[2026-03-18 01:47:01] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773778619723_4490.sol
+[2026-03-18 01:48:22] [INFO] [smartpatch.api.routes] Analyze request received: filename=t.sol
+[2026-03-18 01:48:22] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773778702611_9952.sol
+[2026-03-18 01:48:22] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773778702611_9952.sol
+[2026-03-18 01:48:24] [ERROR] [smartpatch.api.routes] Slither parse failure: Slither returned empty JSON output. 'solc --version' running
+Traceback (most recent call last):
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 381, in get_version
+    with subprocess.Popen(
+         ~~~~~~~~~~~~~~~~^
+        cmd,
+        ^^^^
+    ...<3 lines>...
+        executable=shutil.which(cmd[0]),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as process:
+    ^
+  File "c:\python314\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python314\Lib\subprocess.py", line 1552, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\Nandha\.venv\Scripts\slither.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 727, in main
+    main_impl(all_detector_classes=detectors, all_printer_classes=printers)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 833, in main_impl
+    ) = process_all(filename, args, detector_classes, printer_classes)
+        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 96, in process_all
+    compilations = compile_all(target, **vars(args))
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 718, in compile_all
+    compilations.append(CryticCompile(target, **kwargs))
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 207, in __init__
+    self._compile(**kwargs)
+    ~~~~~~~~~~~~~^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 629, in _compile
+    self._platform.compile(self, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 151, in compile
+    targets_json = _get_targets_json(compilation_unit, self._target, **kwargs)
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 280, in _get_targets_json
+    return _run_solc(
+        compilation_unit,
+    ...<6 lines>...
+        force_legacy_json=force_legacy_json,
+    )
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 497, in _run_solc
+    compiler="solc", version=get_version(solc, env), optimized=is_optimized(solc_arguments)
+                             ~~~~~~~~~~~^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 401, in get_version
+    raise InvalidCompilation(error)
+crytic_compile.platform.exceptions.InvalidCompilation: [WinError 2] The system cannot find the file specified
+[2026-03-18 01:48:24] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773778702611_9952.sol
+[2026-03-18 01:51:08] [INFO] [smartpatch.api.routes] Analyze request received: filename=reentrancy_vulnerable.sol
+[2026-03-18 01:51:32] [INFO] [smartpatch.api.routes] Analyze request received: filename=reentrancy_vulnerable.sol
+[2026-03-18 01:51:58] [INFO] [smartpatch.api.routes] Analyze request received: filename=reentrancy_vulnerable.sol
+[2026-03-18 01:52:23] [INFO] [smartpatch.api.routes] Analyze request received: filename=reentrancy_vulnerable.sol
+[2026-03-18 02:00:16] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 02:00:16] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 02:05:24] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 02:05:43] [INFO] [smartpatch.api.routes] Analyze request received: filename=reentrancy_vulnerable.sol
+[2026-03-18 02:05:43] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773779743111_8564.sol
+[2026-03-18 02:05:43] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773779743111_8564.sol
+[2026-03-18 02:05:47] [ERROR] [smartpatch.api.routes] Slither parse failure: Slither returned empty JSON output. 'E:\Nandha\.venv\Scripts\solc.exe --version' running
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\Nandha\.venv\Scripts\slither.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 727, in main
+    main_impl(all_detector_classes=detectors, all_printer_classes=printers)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 833, in main_impl
+    ) = process_all(filename, args, detector_classes, printer_classes)
+        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 96, in process_all
+    compilations = compile_all(target, **vars(args))
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 718, in compile_all
+    compilations.append(CryticCompile(target, **kwargs))
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 207, in __init__
+    self._compile(**kwargs)
+    ~~~~~~~~~~~~~^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 629, in _compile
+    self._platform.compile(self, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 151, in compile
+    targets_json = _get_targets_json(compilation_unit, self._target, **kwargs)
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 280, in _get_targets_json
+    return _run_solc(
+        compilation_unit,
+    ...<6 lines>...
+        force_legacy_json=force_legacy_json,
+    )
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 497, in _run_solc
+    compiler="solc", version=get_version(solc, env), optimized=is_optimized(solc_arguments)
+                             ~~~~~~~~~~~^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 395, in get_version
+    raise InvalidCompilation(
+        f"\nSolidity version not found:\nSTDOUT:\n{stdout}\nSTDERR:\n{stderr}"
+    )
+crytic_compile.platform.exceptions.InvalidCompilation: 
+Solidity version not found:
+STDOUT:
+
+STDERR:
+Traceback (most recent call last):
+
+  File "<frozen runpy>", line 198, in _run_module_as_main
+
+  File "<frozen runpy>", line 88, in _run_code
+
+  File "E:\Nandha\.venv\Scripts\solc.exe\__main__.py", line 6, in <module>
+
+    sys.exit(solc())
+
+             ~~~~^^
+
+  File "E:\Nandha\.venv\Lib\site-packages\solc_select\__main__.py", line 100, in solc
+
+    res = current_version()
+
+  File "E:\Nandha\.venv\Lib\site-packages\solc_select\solc_select.py", line 189, in current_version
+
+    raise argparse.ArgumentTypeError(
+
+    ...<3 lines>...
+
+    )
+
+argparse.ArgumentTypeError: 
+
+Version '0.8.0' not installed (set by SOLC_VERSION).
+
+Run `solc-select install 0.8.0`.
+
+Or use one of the following versions: ['0.8.34']
+[2026-03-18 02:05:47] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773779743111_8564.sol
+[2026-03-18 02:06:11] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 02:06:33] [INFO] [smartpatch.api.routes] Analyze request received: filename=reentrancy_vulnerable.sol
+[2026-03-18 02:06:33] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773779793521_2599.sol
+[2026-03-18 02:06:33] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773779793521_2599.sol
+[2026-03-18 02:06:36] [ERROR] [smartpatch.api.routes] Slither parse failure: Slither returned empty JSON output. 'E:\Nandha\.venv\Scripts\solc.exe --version' running
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\Nandha\.venv\Scripts\slither.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 727, in main
+    main_impl(all_detector_classes=detectors, all_printer_classes=printers)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 833, in main_impl
+    ) = process_all(filename, args, detector_classes, printer_classes)
+        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 96, in process_all
+    compilations = compile_all(target, **vars(args))
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 718, in compile_all
+    compilations.append(CryticCompile(target, **kwargs))
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 207, in __init__
+    self._compile(**kwargs)
+    ~~~~~~~~~~~~~^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 629, in _compile
+    self._platform.compile(self, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 151, in compile
+    targets_json = _get_targets_json(compilation_unit, self._target, **kwargs)
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 280, in _get_targets_json
+    return _run_solc(
+        compilation_unit,
+    ...<6 lines>...
+        force_legacy_json=force_legacy_json,
+    )
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 497, in _run_solc
+    compiler="solc", version=get_version(solc, env), optimized=is_optimized(solc_arguments)
+                             ~~~~~~~~~~~^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 395, in get_version
+    raise InvalidCompilation(
+        f"\nSolidity version not found:\nSTDOUT:\n{stdout}\nSTDERR:\n{stderr}"
+    )
+crytic_compile.platform.exceptions.InvalidCompilation: 
+Solidity version not found:
+STDOUT:
+
+STDERR:
+Traceback (most recent call last):
+
+  File "<frozen runpy>", line 198, in _run_module_as_main
+
+  File "<frozen runpy>", line 88, in _run_code
+
+  File "E:\Nandha\.venv\Scripts\solc.exe\__main__.py", line 6, in <module>
+
+    sys.exit(solc())
+
+             ~~~~^^
+
+  File "E:\Nandha\.venv\Lib\site-packages\solc_select\__main__.py", line 100, in solc
+
+    res = current_version()
+
+  File "E:\Nandha\.venv\Lib\site-packages\solc_select\solc_select.py", line 189, in current_version
+
+    raise argparse.ArgumentTypeError(
+
+    ...<3 lines>...
+
+    )
+
+argparse.ArgumentTypeError: 
+
+Version '0.8.0' not installed (set by SOLC_VERSION).
+
+Run `solc-select install 0.8.0`.
+
+Or use one of the following versions: ['0.8.34']
+[2026-03-18 02:06:36] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773779793521_2599.sol
+[2026-03-18 02:08:08] [INFO] [smartpatch.api.routes] Analyze request received: filename=reentrancy_vulnerable.sol
+[2026-03-18 02:08:08] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773779888075_1031.sol
+[2026-03-18 02:08:08] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773779888075_1031.sol
+[2026-03-18 02:08:11] [ERROR] [smartpatch.api.routes] Slither parse failure: Slither returned empty JSON output. 'E:\Nandha\.venv\Scripts\solc.exe --version' running
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\Nandha\.venv\Scripts\slither.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 727, in main
+    main_impl(all_detector_classes=detectors, all_printer_classes=printers)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 833, in main_impl
+    ) = process_all(filename, args, detector_classes, printer_classes)
+        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 96, in process_all
+    compilations = compile_all(target, **vars(args))
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 718, in compile_all
+    compilations.append(CryticCompile(target, **kwargs))
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 207, in __init__
+    self._compile(**kwargs)
+    ~~~~~~~~~~~~~^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 629, in _compile
+    self._platform.compile(self, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 151, in compile
+    targets_json = _get_targets_json(compilation_unit, self._target, **kwargs)
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 280, in _get_targets_json
+    return _run_solc(
+        compilation_unit,
+    ...<6 lines>...
+        force_legacy_json=force_legacy_json,
+    )
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 497, in _run_solc
+    compiler="solc", version=get_version(solc, env), optimized=is_optimized(solc_arguments)
+                             ~~~~~~~~~~~^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 395, in get_version
+    raise InvalidCompilation(
+        f"\nSolidity version not found:\nSTDOUT:\n{stdout}\nSTDERR:\n{stderr}"
+    )
+crytic_compile.platform.exceptions.InvalidCompilation: 
+Solidity version not found:
+STDOUT:
+
+STDERR:
+Traceback (most recent call last):
+
+  File "<frozen runpy>", line 198, in _run_module_as_main
+
+  File "<frozen runpy>", line 88, in _run_code
+
+  File "E:\Nandha\.venv\Scripts\solc.exe\__main__.py", line 6, in <module>
+
+    sys.exit(solc())
+
+             ~~~~^^
+
+  File "E:\Nandha\.venv\Lib\site-packages\solc_select\__main__.py", line 100, in solc
+
+    res = current_version()
+
+  File "E:\Nandha\.venv\Lib\site-packages\solc_select\solc_select.py", line 189, in current_version
+
+    raise argparse.ArgumentTypeError(
+
+    ...<3 lines>...
+
+    )
+
+argparse.ArgumentTypeError: 
+
+Version '0.8.0' not installed (set by SOLC_VERSION).
+
+Run `solc-select install 0.8.0`.
+
+Or use one of the following versions: ['0.8.34']
+[2026-03-18 02:08:11] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773779888075_1031.sol
+[2026-03-18 02:08:38] [INFO] [smartpatch.api.routes] Analyze request received: filename=reentrancy_vulnerable.sol
+[2026-03-18 02:08:38] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773779918592_5494.sol
+[2026-03-18 02:08:38] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773779918592_5494.sol
+[2026-03-18 02:08:41] [ERROR] [smartpatch.api.routes] Slither parse failure: Slither returned empty JSON output. 'E:\Nandha\.venv\Scripts\solc.exe --version' running
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\Nandha\.venv\Scripts\slither.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 727, in main
+    main_impl(all_detector_classes=detectors, all_printer_classes=printers)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 833, in main_impl
+    ) = process_all(filename, args, detector_classes, printer_classes)
+        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 96, in process_all
+    compilations = compile_all(target, **vars(args))
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 718, in compile_all
+    compilations.append(CryticCompile(target, **kwargs))
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 207, in __init__
+    self._compile(**kwargs)
+    ~~~~~~~~~~~~~^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 629, in _compile
+    self._platform.compile(self, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 151, in compile
+    targets_json = _get_targets_json(compilation_unit, self._target, **kwargs)
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 280, in _get_targets_json
+    return _run_solc(
+        compilation_unit,
+    ...<6 lines>...
+        force_legacy_json=force_legacy_json,
+    )
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 497, in _run_solc
+    compiler="solc", version=get_version(solc, env), optimized=is_optimized(solc_arguments)
+                             ~~~~~~~~~~~^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 395, in get_version
+    raise InvalidCompilation(
+        f"\nSolidity version not found:\nSTDOUT:\n{stdout}\nSTDERR:\n{stderr}"
+    )
+crytic_compile.platform.exceptions.InvalidCompilation: 
+Solidity version not found:
+STDOUT:
+
+STDERR:
+Traceback (most recent call last):
+
+  File "<frozen runpy>", line 198, in _run_module_as_main
+
+  File "<frozen runpy>", line 88, in _run_code
+
+  File "E:\Nandha\.venv\Scripts\solc.exe\__main__.py", line 6, in <module>
+
+    sys.exit(solc())
+
+             ~~~~^^
+
+  File "E:\Nandha\.venv\Lib\site-packages\solc_select\__main__.py", line 100, in solc
+
+    res = current_version()
+
+  File "E:\Nandha\.venv\Lib\site-packages\solc_select\solc_select.py", line 189, in current_version
+
+    raise argparse.ArgumentTypeError(
+
+    ...<3 lines>...
+
+    )
+
+argparse.ArgumentTypeError: 
+
+Version '0.8.0' not installed (set by SOLC_VERSION).
+
+Run `solc-select install 0.8.0`.
+
+Or use one of the following versions: ['0.8.34']
+[2026-03-18 02:08:41] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773779918592_5494.sol
+[2026-03-18 02:20:17] [INFO] [smartpatch.api.routes] Analyze request received: filename=reentrancy_vulnerable.sol
+[2026-03-18 02:20:17] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773780617066_8065.sol
+[2026-03-18 02:20:17] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773780617066_8065.sol
+[2026-03-18 02:20:20] [ERROR] [smartpatch.api.routes] Slither parse failure: Slither returned empty JSON output. 'E:\Nandha\.venv\Scripts\solc.exe --version' running
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\Nandha\.venv\Scripts\slither.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 727, in main
+    main_impl(all_detector_classes=detectors, all_printer_classes=printers)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 833, in main_impl
+    ) = process_all(filename, args, detector_classes, printer_classes)
+        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 96, in process_all
+    compilations = compile_all(target, **vars(args))
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 718, in compile_all
+    compilations.append(CryticCompile(target, **kwargs))
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 207, in __init__
+    self._compile(**kwargs)
+    ~~~~~~~~~~~~~^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 629, in _compile
+    self._platform.compile(self, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 151, in compile
+    targets_json = _get_targets_json(compilation_unit, self._target, **kwargs)
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 280, in _get_targets_json
+    return _run_solc(
+        compilation_unit,
+    ...<6 lines>...
+        force_legacy_json=force_legacy_json,
+    )
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 497, in _run_solc
+    compiler="solc", version=get_version(solc, env), optimized=is_optimized(solc_arguments)
+                             ~~~~~~~~~~~^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 395, in get_version
+    raise InvalidCompilation(
+        f"\nSolidity version not found:\nSTDOUT:\n{stdout}\nSTDERR:\n{stderr}"
+    )
+crytic_compile.platform.exceptions.InvalidCompilation: 
+Solidity version not found:
+STDOUT:
+
+STDERR:
+Traceback (most recent call last):
+
+  File "<frozen runpy>", line 198, in _run_module_as_main
+
+  File "<frozen runpy>", line 88, in _run_code
+
+  File "E:\Nandha\.venv\Scripts\solc.exe\__main__.py", line 6, in <module>
+
+    sys.exit(solc())
+
+             ~~~~^^
+
+  File "E:\Nandha\.venv\Lib\site-packages\solc_select\__main__.py", line 100, in solc
+
+    res = current_version()
+
+  File "E:\Nandha\.venv\Lib\site-packages\solc_select\solc_select.py", line 189, in current_version
+
+    raise argparse.ArgumentTypeError(
+
+    ...<3 lines>...
+
+    )
+
+argparse.ArgumentTypeError: 
+
+Version '0.8.0' not installed (set by SOLC_VERSION).
+
+Run `solc-select install 0.8.0`.
+
+Or use one of the following versions: ['0.8.34']
+[2026-03-18 02:20:20] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773780617066_8065.sol
+[2026-03-18 02:22:58] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 02:26:12] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 02:26:12] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773780972872_3226.sol
+[2026-03-18 02:26:12] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773780972872_3226.sol
+[2026-03-18 02:26:14] [ERROR] [smartpatch.api.routes] Slither parse failure: Slither returned empty JSON output. 'solc --version' running
+Traceback (most recent call last):
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 381, in get_version
+    with subprocess.Popen(
+         ~~~~~~~~~~~~~~~~^
+        cmd,
+        ^^^^
+    ...<3 lines>...
+        executable=shutil.which(cmd[0]),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ) as process:
+    ^
+  File "c:\python314\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python314\Lib\subprocess.py", line 1552, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\Nandha\.venv\Scripts\slither.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 727, in main
+    main_impl(all_detector_classes=detectors, all_printer_classes=printers)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 833, in main_impl
+    ) = process_all(filename, args, detector_classes, printer_classes)
+        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 96, in process_all
+    compilations = compile_all(target, **vars(args))
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 718, in compile_all
+    compilations.append(CryticCompile(target, **kwargs))
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 207, in __init__
+    self._compile(**kwargs)
+    ~~~~~~~~~~~~~^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 629, in _compile
+    self._platform.compile(self, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 151, in compile
+    targets_json = _get_targets_json(compilation_unit, self._target, **kwargs)
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 280, in _get_targets_json
+    return _run_solc(
+        compilation_unit,
+    ...<6 lines>...
+        force_legacy_json=force_legacy_json,
+    )
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 497, in _run_solc
+    compiler="solc", version=get_version(solc, env), optimized=is_optimized(solc_arguments)
+                             ~~~~~~~~~~~^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 401, in get_version
+    raise InvalidCompilation(error)
+crytic_compile.platform.exceptions.InvalidCompilation: [WinError 2] The system cannot find the file specified
+[2026-03-18 02:26:14] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773780972872_3226.sol
+[2026-03-18 02:27:46] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 02:34:46] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 02:35:09] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 02:35:09] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773781509281_9363.sol
+[2026-03-18 02:35:09] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773781509281_9363.sol
+[2026-03-18 02:36:09] [WARNING] [smartpatch.api.routes] Slither timeout: Slither timed out after 60 seconds
+[2026-03-18 02:36:09] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773781509281_9363.sol
+[2026-03-18 02:36:16] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 02:36:16] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773781576316_7468.sol
+[2026-03-18 02:36:16] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773781576316_7468.sol
+[2026-03-18 02:37:16] [WARNING] [smartpatch.api.routes] Slither timeout: Slither timed out after 60 seconds
+[2026-03-18 02:37:16] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773781576316_7468.sol
+[2026-03-18 02:38:59] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 02:39:38] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 02:40:03] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 02:40:18] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 02:40:18] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773781818509_6644.sol
+[2026-03-18 02:40:18] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773781818509_6644.sol
+[2026-03-18 02:40:26] [WARNING] [smartpatch.api.routes] Falling back to heuristic analyzer: Slither timed out after 8 seconds
+[2026-03-18 02:40:26] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773781818509_6644.sol
+[2026-03-18 02:40:32] [INFO] [smartpatch.api.routes] Patch request received with 1 vulnerabilities
+[2026-03-18 02:40:33] [WARNING] [smartpatch.llm.patch_generator] ANTHROPIC_API_KEY missing; using fallback patching
+[2026-03-18 02:40:33] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773781833137_1197.sol
+[2026-03-18 02:40:33] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773781833137_1197.sol
+[2026-03-18 02:41:33] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773781833137_1197.sol
+[2026-03-18 02:41:33] [ERROR] [smartpatch.api.routes] Unexpected patch error: Slither timed out after 60 seconds
+[2026-03-18 02:42:12] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 02:42:28] [INFO] [smartpatch.api.routes] Patch request received with 1 vulnerabilities
+[2026-03-18 02:42:28] [WARNING] [smartpatch.llm.patch_generator] ANTHROPIC_API_KEY missing; using fallback patching
+[2026-03-18 02:42:28] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773781948417_9469.sol
+[2026-03-18 02:42:28] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773781948417_9469.sol
+[2026-03-18 02:42:34] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 02:42:34] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773781948417_9469.sol
+[2026-03-18 02:42:34] [INFO] [smartpatch.api.routes] Patch completed in 6.867s with status=FAILED
+[2026-03-18 02:42:43] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 02:42:43] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 02:42:43] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 02:42:44] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 02:42:44] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 02:42:44] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 02:42:44] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 02:42:46] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 02:42:46] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 02:42:46] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 02:42:46] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 02:42:46] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 02:45:57] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 02:46:18] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 02:46:18] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773782178699_4824.sol
+[2026-03-18 02:46:18] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773782178699_4824.sol
+[2026-03-18 02:46:20] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 02:46:20] [INFO] [smartpatch.api.routes] Analyze completed in 2.060s with 1 vulnerabilities
+[2026-03-18 02:46:20] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773782178699_4824.sol
+[2026-03-18 02:46:20] [INFO] [smartpatch.api.routes] Patch request received with 1 vulnerabilities
+[2026-03-18 02:46:21] [WARNING] [smartpatch.llm.patch_generator] ANTHROPIC_API_KEY missing; using fallback patching
+[2026-03-18 02:46:21] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773782181218_4148.sol
+[2026-03-18 02:46:21] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773782181218_4148.sol
+[2026-03-18 02:46:23] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 02:46:23] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773782181218_4148.sol
+[2026-03-18 02:46:23] [INFO] [smartpatch.api.routes] Patch completed in 2.432s with status=FAILED
+[2026-03-18 02:59:28] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 03:03:54] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 03:03:59] [ERROR] [smartpatch.llm.patch_generator] OpenRouter patch generation failed: Client.__init__() got an unexpected keyword argument 'proxies'
+[2026-03-18 03:05:15] [ERROR] [smartpatch.llm.patch_generator] OpenRouter patch generation failed: Client.__init__() got an unexpected keyword argument 'proxies'
+[2026-03-18 03:06:08] [ERROR] [smartpatch.llm.patch_generator] OpenRouter patch generation failed: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 4096 tokens, but can only afford 585. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_38ecZ3fzyW2zEFeEme8I8JZEyL1'}
+[2026-03-18 03:06:16] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 03:06:23] [ERROR] [smartpatch.llm.patch_generator] OpenRouter patch generation failed: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 4096 tokens, but can only afford 585. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_38ecZ3fzyW2zEFeEme8I8JZEyL1'}
+[2026-03-18 03:06:46] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 03:07:20] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 03:08:30] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 03:08:30] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773783510401_2624.sol
+[2026-03-18 03:08:30] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773783510401_2624.sol
+[2026-03-18 03:08:31] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 03:08:31] [INFO] [smartpatch.api.routes] Analyze completed in 1.338s with 1 vulnerabilities
+[2026-03-18 03:08:31] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773783510401_2624.sol
+[2026-03-18 03:08:31] [INFO] [smartpatch.api.routes] Patch request received with 1 vulnerabilities
+[2026-03-18 03:08:31] [WARNING] [smartpatch.llm.patch_generator] openai package missing; using fallback patching
+[2026-03-18 03:08:31] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773783511748_6255.sol
+[2026-03-18 03:08:31] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773783511748_6255.sol
+[2026-03-18 03:08:33] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 03:08:33] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773783511748_6255.sol
+[2026-03-18 03:08:33] [INFO] [smartpatch.api.routes] Patch completed in 1.274s with status=FAILED
+[2026-03-18 03:09:57] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 03:10:01] [INFO] [smartpatch.api.routes] Patch request received with 1 vulnerabilities
+[2026-03-18 03:10:04] [ERROR] [smartpatch.llm.patch_generator] OpenRouter patch generation failed: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 4096 tokens, but can only afford 536. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_38ecZ3fzyW2zEFeEme8I8JZEyL1'}
+[2026-03-18 03:10:04] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773783604431_8200.sol
+[2026-03-18 03:10:04] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773783604431_8200.sol
+[2026-03-18 03:10:05] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 03:10:05] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773783604431_8200.sol
+[2026-03-18 03:10:05] [INFO] [smartpatch.api.routes] Patch completed in 4.876s with status=FAILED
+[2026-03-18 03:10:18] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 03:10:18] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 03:10:21] [INFO] [smartpatch.api.routes] Patch request received with 1 vulnerabilities
+[2026-03-18 03:10:39] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773783639969_9034.sol
+[2026-03-18 03:10:39] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773783639969_9034.sol
+[2026-03-18 03:10:41] [WARNING] [smartpatch.validator.patch_validator] Validation fallback to heuristic scanner due to: Slither returned empty JSON output. 'C:\Users\USER\.solc-select\artifacts\solc-0.8.34\solc-0.8.34 --version' running
+'C:\Users\USER\.solc-select\artifacts\solc-0.8.34\solc-0.8.34 @=node_modules/@ C:\Users\USER\AppData\Local\Temp\smartpatch_1773783639969_9034.sol --combined-json abi,ast,bin,bin-runtime,srcmap,srcmap-runtime,userdoc,devdoc,hashes --allow-paths .,C:\Users\USER\AppData\Local\Temp' running
+Compilation warnings/errors on C:\Users\USER\AppData\Local\Temp\smartpatch_1773783639969_9034.sol:
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+
+--> C:/Users/USER/AppData/Local/Temp/smartpatch_1773783639969_9034.sol
+
+
+
+Error: Source "node_modules/@openzeppelin/contracts/security/ReentrancyGuard.sol" not found: File not found. Searched the following locations: "".
+
+ --> C:/Users/USER/AppData/Local/Temp/smartpatch_1773783639969_9034.sol:3:1:
+
+  |
+
+3 | import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python314\site-packages\crytic_compile\platform\solc.py", line 581, in _run_solc
+    ret: Dict = json.loads(stdout)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Python314\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Python314\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\USER\AppData\Roaming\Python\Python314\site-packages\slither\__main__.py", line 972, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python314\site-packages\slither\__main__.py", line 760, in main
+    main_impl(all_detector_classes=detectors, all_printer_classes=printers)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python314\site-packages\slither\__main__.py", line 865, in main_impl
+    ) = process_all(filename, args, detector_classes, printer_classes)
+        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python314\site-packages\slither\__main__.py", line 95, in process_all
+    compilations = compile_all(target, **vars(args))
+  File "C:\Users\USER\AppData\Roaming\Python\Python314\site-packages\crytic_compile\crytic_compile.py", line 722, in compile_all
+    compilations.append(CryticCompile(target, **kwargs))
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python314\site-packages\crytic_compile\crytic_compile.py", line 211, in __init__
+    self._compile(**kwargs)
+    ~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python314\site-packages\crytic_compile\crytic_compile.py", line 633, in _compile
+    self._platform.compile(self, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python314\site-packages\crytic_compile\platform\solc.py", line 150, in compile
+    targets_json = _get_targets_json(compilation_unit, self._target, **kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python314\site-packages\crytic_compile\platform\solc.py", line 279, in _get_targets_json
+    return _run_solc(
+        compilation_unit,
+    ...<6 lines>...
+        force_legacy_json=force_legacy_json,
+    )
+  File "C:\Users\USER\AppData\Roaming\Python\Python314\site-packages\crytic_compile\platform\solc.py", line 585, in _run_solc
+    raise InvalidCompilation(f"Invalid solc compilation {stderr}")
+crytic_compile.platform.exceptions.InvalidCompilation: Invalid solc compilation Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+
+--> C:/Users/USER/AppData/Local/Temp/smartpatch_1773783639969_9034.sol
+
+
+
+Error: Source "node_modules/@openzeppelin/contracts/security/ReentrancyGuard.sol" not found: File not found. Searched the following locations: "".
+
+ --> C:/Users/USER/AppData/Local/Temp/smartpatch_1773783639969_9034.sol:3:1:
+
+  |
+
+3 | import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+
+  | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2026-03-18 03:10:41] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773783639969_9034.sol
+[2026-03-18 03:10:41] [INFO] [smartpatch.api.routes] Patch completed in 20.170s with status=FAILED
+[2026-03-18 03:10:50] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 03:11:27] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 03:11:27] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773783687533_6529.sol
+[2026-03-18 03:11:27] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773783687533_6529.sol
+[2026-03-18 03:11:28] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 03:11:28] [INFO] [smartpatch.api.routes] Analyze completed in 1.390s with 1 vulnerabilities
+[2026-03-18 03:11:28] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773783687533_6529.sol
+[2026-03-18 03:11:28] [INFO] [smartpatch.api.routes] Patch request received with 1 vulnerabilities
+[2026-03-18 03:11:28] [WARNING] [smartpatch.llm.patch_generator] openai package missing; using fallback patching
+[2026-03-18 03:11:28] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773783688932_7607.sol
+[2026-03-18 03:11:28] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773783688932_7607.sol
+[2026-03-18 03:11:30] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 03:11:30] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773783688932_7607.sol
+[2026-03-18 03:11:30] [INFO] [smartpatch.api.routes] Patch completed in 1.310s with status=FAILED
+[2026-03-18 03:15:03] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 03:15:03] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773783903354_6388.sol
+[2026-03-18 03:15:03] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773783903354_6388.sol
+[2026-03-18 03:15:04] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 03:15:04] [INFO] [smartpatch.api.routes] Analyze completed in 1.352s with 1 vulnerabilities
+[2026-03-18 03:15:04] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773783903354_6388.sol
+[2026-03-18 03:15:04] [INFO] [smartpatch.api.routes] Patch request received with 1 vulnerabilities
+[2026-03-18 03:15:04] [WARNING] [smartpatch.llm.patch_generator] openai package missing; using fallback patching
+[2026-03-18 03:15:04] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773783904713_5714.sol
+[2026-03-18 03:15:04] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773783904713_5714.sol
+[2026-03-18 03:15:06] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 03:15:06] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773783904713_5714.sol
+[2026-03-18 03:15:06] [INFO] [smartpatch.api.routes] Patch completed in 1.304s with status=FAILED
+[2026-03-18 03:15:55] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 03:15:55] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773783955798_6286.sol
+[2026-03-18 03:15:55] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773783955798_6286.sol
+[2026-03-18 03:15:57] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 03:15:57] [INFO] [smartpatch.api.routes] Analyze completed in 1.389s with 1 vulnerabilities
+[2026-03-18 03:15:57] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773783955798_6286.sol
+[2026-03-18 03:15:57] [INFO] [smartpatch.api.routes] Patch request received with 1 vulnerabilities
+[2026-03-18 03:15:57] [WARNING] [smartpatch.llm.patch_generator] openai package missing; using fallback patching
+[2026-03-18 03:15:57] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773783957195_1728.sol
+[2026-03-18 03:15:57] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773783957195_1728.sol
+[2026-03-18 03:15:58] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 03:15:58] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773783957195_1728.sol
+[2026-03-18 03:15:58] [INFO] [smartpatch.api.routes] Patch completed in 1.384s with status=FAILED
+[2026-03-18 03:16:57] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 03:16:57] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773784017540_6268.sol
+[2026-03-18 03:16:57] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773784017540_6268.sol
+[2026-03-18 03:16:58] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 03:16:58] [INFO] [smartpatch.api.routes] Analyze completed in 1.312s with 1 vulnerabilities
+[2026-03-18 03:16:58] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773784017540_6268.sol
+[2026-03-18 03:16:58] [INFO] [smartpatch.api.routes] Patch request received with 1 vulnerabilities
+[2026-03-18 03:16:58] [WARNING] [smartpatch.llm.patch_generator] openai package missing; using fallback patching
+[2026-03-18 03:16:58] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773784018858_1546.sol
+[2026-03-18 03:16:58] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773784018858_1546.sol
+[2026-03-18 03:17:00] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 03:17:00] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773784018858_1546.sol
+[2026-03-18 03:17:00] [INFO] [smartpatch.api.routes] Patch completed in 1.281s with status=FAILED
+[2026-03-18 03:19:53] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 03:20:05] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 03:20:05] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773784205291_1236.sol
+[2026-03-18 03:20:05] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773784205291_1236.sol
+[2026-03-18 03:20:06] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 03:20:06] [INFO] [smartpatch.api.routes] Analyze completed in 1.299s with 1 vulnerabilities
+[2026-03-18 03:20:06] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773784205291_1236.sol
+[2026-03-18 03:20:06] [INFO] [smartpatch.api.routes] Patch request received with 1 vulnerabilities
+[2026-03-18 03:20:06] [WARNING] [smartpatch.llm.patch_generator] openai package missing; using fallback patching
+[2026-03-18 03:20:06] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773784206600_6075.sol
+[2026-03-18 03:20:06] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773784206600_6075.sol
+[2026-03-18 03:20:08] [WARNING] [smartpatch.validator.patch_validator] Validation fallback to heuristic scanner due to: Slither returned empty JSON output. 'C:\Users\USER\.solc-select\artifacts\solc-0.8.34\solc-0.8.34 --version' running
+'C:\Users\USER\.solc-select\artifacts\solc-0.8.34\solc-0.8.34 @=node_modules/@ C:\Users\USER\AppData\Local\Temp\smartpatch_1773784206600_6075.sol --combined-json abi,ast,bin,bin-runtime,srcmap,srcmap-runtime,userdoc,devdoc,hashes --allow-paths .,C:\Users\USER\AppData\Local\Temp' running
+Compilation warnings/errors on C:\Users\USER\AppData\Local\Temp\smartpatch_1773784206600_6075.sol:
+Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+
+--> C:/Users/USER/AppData/Local/Temp/smartpatch_1773784206600_6075.sol
+
+
+
+Error: Undeclared identifier. "success" is not (or not yet) visible at this point.
+
+  --> C:/Users/USER/AppData/Local/Temp/smartpatch_1773784206600_6075.sol:11:17:
+
+   |
+
+11 |         require(success, "Transfer failed");
+
+
+   |                 ^^^^^^^
+
+
+
+
+Traceback (most recent call last):
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 582, in _run_solc
+    ret: Dict = json.loads(stdout)
+                ~~~~~~~~~~^^^^^^^^
+  File "c:\python314\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "c:\python314\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\python314\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "E:\Nandha\.venv\Scripts\slither.exe\__main__.py", line 6, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 727, in main
+    main_impl(all_detector_classes=detectors, all_printer_classes=printers)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 833, in main_impl
+    ) = process_all(filename, args, detector_classes, printer_classes)
+        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\slither\__main__.py", line 96, in process_all
+    compilations = compile_all(target, **vars(args))
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 718, in compile_all
+    compilations.append(CryticCompile(target, **kwargs))
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 207, in __init__
+    self._compile(**kwargs)
+    ~~~~~~~~~~~~~^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\crytic_compile.py", line 629, in _compile
+    self._platform.compile(self, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 151, in compile
+    targets_json = _get_targets_json(compilation_unit, self._target, **kwargs)
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 280, in _get_targets_json
+    return _run_solc(
+        compilation_unit,
+    ...<6 lines>...
+        force_legacy_json=force_legacy_json,
+    )
+  File "E:\Nandha\.venv\Lib\site-packages\crytic_compile\platform\solc.py", line 586, in _run_solc
+    raise InvalidCompilation(f"Invalid solc compilation {stderr}")
+crytic_compile.platform.exceptions.InvalidCompilation: Invalid solc compilation Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing "SPDX-License-Identifier: <SPDX-License>" to each source file. Use "SPDX-License-Identifier: UNLICENSED" for non-open-source code. Please see https://spdx.org for more information.
+
+--> C:/Users/USER/AppData/Local/Temp/smartpatch_1773784206600_6075.sol
+
+
+
+Error: Undeclared identifier. "success" is not (or not yet) visible at this point.
+
+  --> C:/Users/USER/AppData/Local/Temp/smartpatch_1773784206600_6075.sol:11:17:
+
+   |
+
+11 |         require(success, "Transfer failed");
+
+
+   |                 ^^^^^^^
+[2026-03-18 03:20:08] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773784206600_6075.sol
+[2026-03-18 03:20:08] [INFO] [smartpatch.api.routes] Patch completed in 2.135s with status=FAILED
+[2026-03-18 03:25:28] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 03:25:49] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 03:25:53] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 03:26:58] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 03:27:02] [INFO] [smartpatch.api.routes] Push request received for file: test_push.sol
+[2026-03-18 03:27:04] [ERROR] [smartpatch.utils.git_handler] GitHub API Error (401): Bad credentials
+[2026-03-18 03:40:43] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 03:40:43] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773785443321_6263.sol
+[2026-03-18 03:40:43] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773785443321_6263.sol
+[2026-03-18 03:40:44] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 03:40:44] [INFO] [smartpatch.api.routes] Analyze completed in 1.426s with 1 vulnerabilities
+[2026-03-18 03:40:44] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773785443321_6263.sol
+[2026-03-18 03:40:44] [INFO] [smartpatch.api.routes] Patch request received with 1 vulnerabilities
+[2026-03-18 03:40:44] [WARNING] [smartpatch.llm.patch_generator] openai package missing; using fallback patching
+[2026-03-18 03:40:44] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773785444758_3420.sol
+[2026-03-18 03:40:44] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773785444758_3420.sol
+[2026-03-18 03:40:46] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 03:40:46] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773785444758_3420.sol
+[2026-03-18 03:40:46] [INFO] [smartpatch.api.routes] Patch completed in 1.443s with status=FAILED
+[2026-03-18 03:40:46] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 03:40:46] [ERROR] [smartpatch.utils.git_handler] GITHUB_TOKEN or GITHUB_REPO not set in .env
+[2026-03-18 03:41:29] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 03:41:29] [ERROR] [smartpatch.utils.git_handler] GITHUB_TOKEN or GITHUB_REPO not set in .env
+[2026-03-18 03:49:51] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 03:49:51] [ERROR] [smartpatch.utils.git_handler] GITHUB_TOKEN or GITHUB_REPO not set in .env
+[2026-03-18 03:50:54] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 03:50:56] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 03:51:01] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 03:51:13] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 03:52:48] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 03:52:51] [ERROR] [smartpatch.utils.git_handler] GitHub API Error (403): Resource not accessible by personal access token
+[2026-03-18 03:54:11] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 03:54:13] [ERROR] [smartpatch.utils.git_handler] GitHub API Error (403): Resource not accessible by personal access token
+[2026-03-18 04:00:57] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:01:00] [ERROR] [smartpatch.utils.git_handler] GitHub API Error (403): Resource not accessible by personal access token
+[2026-03-18 04:03:47] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:03:49] [ERROR] [smartpatch.utils.git_handler] GitHub API Error (403): Resource not accessible by personal access token
+[2026-03-18 04:05:26] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 04:05:27] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 04:05:44] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:05:47] [ERROR] [smartpatch.utils.git_handler] GitHub API Error (401): Bad credentials
+[2026-03-18 04:06:10] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 04:06:11] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 04:06:13] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 04:06:13] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 04:07:03] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:07:03] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: PASTE_YO...
+[2026-03-18 04:07:06] [ERROR] [smartpatch.utils.git_handler] GitHub API Error (401): Bad credentials
+[2026-03-18 04:07:32] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 04:07:32] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773787052915_5154.sol
+[2026-03-18 04:07:32] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773787052915_5154.sol
+[2026-03-18 04:07:34] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 04:07:34] [INFO] [smartpatch.api.routes] Analyze completed in 1.313s with 1 vulnerabilities
+[2026-03-18 04:07:34] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773787052915_5154.sol
+[2026-03-18 04:07:34] [INFO] [smartpatch.api.routes] Patch request received with 1 vulnerabilities
+[2026-03-18 04:07:34] [WARNING] [smartpatch.llm.patch_generator] openai package missing; using fallback patching
+[2026-03-18 04:07:34] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773787054238_5518.sol
+[2026-03-18 04:07:34] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773787054238_5518.sol
+[2026-03-18 04:07:35] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 04:07:35] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773787054238_5518.sol
+[2026-03-18 04:07:35] [INFO] [smartpatch.api.routes] Patch completed in 1.289s with status=FAILED
+[2026-03-18 04:07:35] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:07:35] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: PASTE_YO...
+[2026-03-18 04:07:38] [ERROR] [smartpatch.utils.git_handler] GitHub API Error (401): Bad credentials
+[2026-03-18 04:07:43] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:07:43] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: PASTE_YO...
+[2026-03-18 04:07:45] [ERROR] [smartpatch.utils.git_handler] GitHub API Error (401): Bad credentials
+[2026-03-18 04:08:06] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 04:09:25] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:09:25] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: PASTE_YO...
+[2026-03-18 04:09:28] [ERROR] [smartpatch.utils.git_handler] GitHub API Error (401): Bad credentials
+[2026-03-18 04:11:42] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:11:42] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: PASTE_YO...
+[2026-03-18 04:11:44] [ERROR] [smartpatch.utils.git_handler] GitHub API Error (401): Bad credentials
+[2026-03-18 04:11:49] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:11:49] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: PASTE_YO...
+[2026-03-18 04:11:51] [ERROR] [smartpatch.utils.git_handler] GitHub API Error (401): Bad credentials
+[2026-03-18 04:11:58] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:11:58] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: PASTE_YO...
+[2026-03-18 04:12:00] [ERROR] [smartpatch.utils.git_handler] GitHub API Error (401): Bad credentials
+[2026-03-18 04:20:32] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:20:32] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: PASTE_YO...
+[2026-03-18 04:20:34] [ERROR] [smartpatch.utils.git_handler] GitHub API Error (401): Bad credentials
+[2026-03-18 04:20:46] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 04:20:46] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773787846980_3965.sol
+[2026-03-18 04:20:46] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773787846980_3965.sol
+[2026-03-18 04:20:48] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 04:20:48] [INFO] [smartpatch.api.routes] Analyze completed in 1.371s with 1 vulnerabilities
+[2026-03-18 04:20:48] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773787846980_3965.sol
+[2026-03-18 04:20:48] [INFO] [smartpatch.api.routes] Patch request received with 1 vulnerabilities
+[2026-03-18 04:20:48] [WARNING] [smartpatch.llm.patch_generator] openai package missing; using fallback patching
+[2026-03-18 04:20:48] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773787848360_4888.sol
+[2026-03-18 04:20:48] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773787848360_4888.sol
+[2026-03-18 04:20:49] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 04:20:49] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773787848360_4888.sol
+[2026-03-18 04:20:49] [INFO] [smartpatch.api.routes] Patch completed in 1.280s with status=FAILED
+[2026-03-18 04:20:49] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:20:49] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: PASTE_YO...
+[2026-03-18 04:20:52] [ERROR] [smartpatch.utils.git_handler] GitHub API Error (401): Bad credentials
+[2026-03-18 04:20:55] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:20:55] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: PASTE_YO...
+[2026-03-18 04:20:59] [ERROR] [smartpatch.utils.git_handler] GitHub API Error (401): Bad credentials
+[2026-03-18 04:22:27] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:22:27] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: PASTE_YO...
+[2026-03-18 04:22:29] [ERROR] [smartpatch.utils.git_handler] GitHub API Error (401): Bad credentials
+[2026-03-18 04:23:18] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 04:23:18] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773787998015_3853.sol
+[2026-03-18 04:23:18] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773787998015_3853.sol
+[2026-03-18 04:23:19] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 04:23:19] [INFO] [smartpatch.api.routes] Analyze completed in 1.438s with 1 vulnerabilities
+[2026-03-18 04:23:19] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773787998015_3853.sol
+[2026-03-18 04:23:19] [INFO] [smartpatch.api.routes] Patch request received with 1 vulnerabilities
+[2026-03-18 04:23:19] [WARNING] [smartpatch.llm.patch_generator] openai package missing; using fallback patching
+[2026-03-18 04:23:19] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773787999460_3116.sol
+[2026-03-18 04:23:19] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773787999460_3116.sol
+[2026-03-18 04:23:20] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 04:23:20] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773787999460_3116.sol
+[2026-03-18 04:23:20] [INFO] [smartpatch.api.routes] Patch completed in 1.334s with status=FAILED
+[2026-03-18 04:23:20] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:23:20] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: PASTE_YO...
+[2026-03-18 04:23:23] [ERROR] [smartpatch.utils.git_handler] GitHub API Error (401): Bad credentials
+[2026-03-18 04:25:00] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:25:00] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: PASTE_YO...
+[2026-03-18 04:25:02] [ERROR] [smartpatch.utils.git_handler] GitHub API Error (401): Bad credentials
+[2026-03-18 04:25:48] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 04:25:48] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773788148432_6080.sol
+[2026-03-18 04:25:48] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773788148432_6080.sol
+[2026-03-18 04:25:49] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 04:25:49] [INFO] [smartpatch.api.routes] Analyze completed in 1.390s with 1 vulnerabilities
+[2026-03-18 04:25:49] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773788148432_6080.sol
+[2026-03-18 04:25:49] [INFO] [smartpatch.api.routes] Patch request received with 1 vulnerabilities
+[2026-03-18 04:25:49] [WARNING] [smartpatch.llm.patch_generator] openai package missing; using fallback patching
+[2026-03-18 04:25:49] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773788149827_7842.sol
+[2026-03-18 04:25:49] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773788149827_7842.sol
+[2026-03-18 04:25:51] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 04:25:51] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773788149827_7842.sol
+[2026-03-18 04:25:51] [INFO] [smartpatch.api.routes] Patch completed in 1.347s with status=FAILED
+[2026-03-18 04:25:51] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:25:51] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: PASTE_YO...
+[2026-03-18 04:25:53] [ERROR] [smartpatch.utils.git_handler] GitHub API Error (401): Bad credentials
+[2026-03-18 04:29:56] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 04:32:22] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 04:34:23] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 04:34:23] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773788663494_9456.sol
+[2026-03-18 04:34:23] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773788663494_9456.sol
+[2026-03-18 04:34:24] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 04:34:24] [INFO] [smartpatch.api.routes] Analyze completed in 1.343s with 1 vulnerabilities
+[2026-03-18 04:34:24] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773788663494_9456.sol
+[2026-03-18 04:34:24] [INFO] [smartpatch.api.routes] Patch request received with 1 vulnerabilities
+[2026-03-18 04:34:28] [ERROR] [smartpatch.llm.patch_generator] OpenRouter patch generation failed: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 1000 tokens, but can only afford 481. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_38ecZ3fzyW2zEFeEme8I8JZEyL1'}
+[2026-03-18 04:34:28] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773788668480_1780.sol
+[2026-03-18 04:34:28] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773788668480_1780.sol
+[2026-03-18 04:34:29] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 04:34:29] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773788668480_1780.sol
+[2026-03-18 04:34:29] [INFO] [smartpatch.api.routes] Patch completed in 4.876s with status=FAILED
+[2026-03-18 04:34:29] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:34:29] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: github_p...
+[2026-03-18 04:34:36] [INFO] [smartpatch.utils.git_handler] Successfully pushed contract_patched.sol to jenars666/contract on branch main
+[2026-03-18 04:38:04] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:38:04] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: github_p...
+[2026-03-18 04:38:05] [INFO] [smartpatch.utils.git_handler] File contract_patched.sol exists, SHA: eb74b4947de4e31145d57056798045dc27b63efd
+[2026-03-18 04:38:07] [INFO] [smartpatch.utils.git_handler] Successfully pushed contract_patched.sol to jenars666/contract on branch main
+[2026-03-18 04:39:39] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 04:39:39] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773788979633_3454.sol
+[2026-03-18 04:39:39] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773788979633_3454.sol
+[2026-03-18 04:39:40] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 04:39:40] [INFO] [smartpatch.api.routes] Analyze completed in 1.307s with 1 vulnerabilities
+[2026-03-18 04:39:40] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773788979633_3454.sol
+[2026-03-18 04:39:40] [INFO] [smartpatch.api.routes] Patch request received with 1 vulnerabilities
+[2026-03-18 04:39:42] [ERROR] [smartpatch.llm.patch_generator] OpenRouter patch generation failed: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 1000 tokens, but can only afford 481. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_38ecZ3fzyW2zEFeEme8I8JZEyL1'}
+[2026-03-18 04:39:42] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773788982569_5358.sol
+[2026-03-18 04:39:42] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773788982569_5358.sol
+[2026-03-18 04:39:43] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 04:39:43] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773788982569_5358.sol
+[2026-03-18 04:39:43] [INFO] [smartpatch.api.routes] Patch completed in 2.868s with status=FAILED
+[2026-03-18 04:39:43] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:39:43] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: github_p...
+[2026-03-18 04:39:45] [INFO] [smartpatch.utils.git_handler] File contract_patched.sol exists, SHA: eb74b4947de4e31145d57056798045dc27b63efd
+[2026-03-18 04:39:46] [INFO] [smartpatch.utils.git_handler] Successfully pushed contract_patched.sol to jenars666/contract on branch main
+[2026-03-18 04:39:49] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:39:49] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: github_p...
+[2026-03-18 04:39:50] [INFO] [smartpatch.utils.git_handler] File contract_patched.sol exists, SHA: eb74b4947de4e31145d57056798045dc27b63efd
+[2026-03-18 04:39:52] [INFO] [smartpatch.utils.git_handler] Successfully pushed contract_patched.sol to jenars666/contract on branch main
+[2026-03-18 04:41:35] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 04:41:35] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773789095044_3630.sol
+[2026-03-18 04:41:35] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773789095044_3630.sol
+[2026-03-18 04:41:36] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 04:41:36] [INFO] [smartpatch.api.routes] Analyze completed in 1.427s with 1 vulnerabilities
+[2026-03-18 04:41:36] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773789095044_3630.sol
+[2026-03-18 04:41:36] [INFO] [smartpatch.api.routes] Patch request received with 1 vulnerabilities
+[2026-03-18 04:41:38] [ERROR] [smartpatch.llm.patch_generator] OpenRouter patch generation failed: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 1000 tokens, but can only afford 481. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_38ecZ3fzyW2zEFeEme8I8JZEyL1'}
+[2026-03-18 04:41:38] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773789098469_1323.sol
+[2026-03-18 04:41:38] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773789098469_1323.sol
+[2026-03-18 04:41:39] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 04:41:39] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773789098469_1323.sol
+[2026-03-18 04:41:39] [INFO] [smartpatch.api.routes] Patch completed in 3.253s with status=FAILED
+[2026-03-18 04:41:41] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:41:41] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: github_p...
+[2026-03-18 04:41:42] [INFO] [smartpatch.utils.git_handler] File contract_patched.sol exists, SHA: eb74b4947de4e31145d57056798045dc27b63efd
+[2026-03-18 04:41:44] [INFO] [smartpatch.utils.git_handler] Successfully pushed contract_patched.sol to jenars666/contract on branch main
+[2026-03-18 04:41:57] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:41:57] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: github_p...
+[2026-03-18 04:41:58] [INFO] [smartpatch.utils.git_handler] File contract_patched.sol exists, SHA: eb74b4947de4e31145d57056798045dc27b63efd
+[2026-03-18 04:42:00] [INFO] [smartpatch.utils.git_handler] Successfully pushed contract_patched.sol to jenars666/contract on branch main
+[2026-03-18 04:45:11] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 04:45:12] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 04:47:15] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 04:50:50] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 04:51:05] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 04:51:19] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 04:51:31] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 04:54:06] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 04:54:06] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773789846976_8410.sol
+[2026-03-18 04:54:06] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773789846976_8410.sol
+[2026-03-18 04:54:07] [ERROR] [smartpatch.api.routes] Slither parse failure: Slither execution failed (rc=2): usage: slither target [flag]
+
+target can be:
+	- file.sol // a Solidity file
+	- project_directory // a project directory. See https://github.com/crytic/crytic-compile/#crytic-compile for the supported platforms
+	- 0x.. // a contract on mainnet
+	- NETWORK:0x.. // a contract on a different network. Supported networks: mainnet,sepolia,holesky,hoodi,bsc,testnet.bsc,poly,amoy.poly,base,sepolia.base,arbi,nova.arbi,sepolia.arbi,linea,sepolia.linea,blast,sepolia.blast,optim,sepolia.optim,avax,testnet.avax,bttc,testnet.bttc,celo,sepolia.celo,frax,hoodi.frax,gno,mantle,sepolia.mantle,memecore,moonbeam,moonriver,moonbase,opbnb,testnet.opbnb,scroll,sepolia.scroll,taiko,hoodi.taiko,era.zksync,sepoliaera.zksync,xdc,testnet.xdc,apechain,curtis.apechain,world,sepolia.world,sophon,testnet.sophon,sonic,testnet.sonic,unichain,sepolia.unichain,abstract,sepolia.abstract,berachain,testnet.berachain,swellchain,testnet.swellchain,testnet.monad,hyperevm,katana,bokuto.katana,sei,testnet.sei
+python.exe -m slither: error: unrecognized arguments: --all
+[2026-03-18 04:54:07] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773789846976_8410.sol
+[2026-03-18 04:54:34] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 04:55:16] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 04:55:16] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773789916308_9548.sol
+[2026-03-18 04:55:16] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773789916308_9548.sol
+[2026-03-18 04:55:17] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 04:55:21] [ERROR] [smartpatch.analyzer.audit_engine] OpenRouter semantic audit failed: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8192 tokens, but can only afford 481. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_38ecZ3fzyW2zEFeEme8I8JZEyL1'}
+[2026-03-18 04:55:21] [INFO] [smartpatch.api.routes] Analyze completed in 5.326s with 3 vulnerabilities
+[2026-03-18 04:55:21] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773789916308_9548.sol
+[2026-03-18 04:55:21] [INFO] [smartpatch.api.routes] Patch request received with 3 vulnerabilities
+[2026-03-18 04:55:23] [ERROR] [smartpatch.llm.patch_generator] OpenRouter patch generation failed: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 1000 tokens, but can only afford 481. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_38ecZ3fzyW2zEFeEme8I8JZEyL1'}
+[2026-03-18 04:55:23] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773789923533_1784.sol
+[2026-03-18 04:55:23] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773789923533_1784.sol
+[2026-03-18 04:55:24] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 04:55:24] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773789923533_1784.sol
+[2026-03-18 04:55:24] [INFO] [smartpatch.api.routes] Patch completed in 3.117s with status=FAILED
+[2026-03-18 04:55:26] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:55:26] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: github_p...
+[2026-03-18 04:55:27] [INFO] [smartpatch.utils.git_handler] File contract_patched.sol exists, SHA: eb74b4947de4e31145d57056798045dc27b63efd
+[2026-03-18 04:55:29] [INFO] [smartpatch.utils.git_handler] Successfully pushed contract_patched.sol to jenars666/contract on branch main
+[2026-03-18 04:57:11] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 04:57:24] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 04:57:30] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 04:57:58] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 04:57:58] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773790078687_4294.sol
+[2026-03-18 04:57:58] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773790078687_4294.sol
+[2026-03-18 04:58:00] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 04:58:03] [ERROR] [smartpatch.analyzer.audit_engine] OpenRouter semantic audit failed: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8192 tokens, but can only afford 481. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_38ecZ3fzyW2zEFeEme8I8JZEyL1'}
+[2026-03-18 04:58:03] [INFO] [smartpatch.api.routes] Analyze completed in 4.906s with 3 vulnerabilities
+[2026-03-18 04:58:03] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773790078687_4294.sol
+[2026-03-18 04:58:03] [INFO] [smartpatch.api.routes] Patch request received with 3 vulnerabilities
+[2026-03-18 04:58:05] [ERROR] [smartpatch.llm.patch_generator] OpenRouter patch generation failed: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 4096 tokens, but can only afford 481. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_38ecZ3fzyW2zEFeEme8I8JZEyL1'}
+[2026-03-18 04:58:05] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773790085741_7572.sol
+[2026-03-18 04:58:05] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773790085741_7572.sol
+[2026-03-18 04:58:07] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 04:58:07] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773790085741_7572.sol
+[2026-03-18 04:58:07] [INFO] [smartpatch.api.routes] Patch completed in 3.445s with status=FAILED
+[2026-03-18 04:58:08] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 04:58:08] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: github_p...
+[2026-03-18 04:58:10] [INFO] [smartpatch.utils.git_handler] File contract_patched.sol exists, SHA: dab68fdb901a96595e032a7c39abf16ed59c7de3
+[2026-03-18 04:58:11] [INFO] [smartpatch.utils.git_handler] Successfully pushed contract_patched.sol to jenars666/contract on branch main
+[2026-03-18 04:59:34] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 04:59:49] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 05:00:01] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 05:00:11] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 05:00:11] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 05:00:11] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773790211306_5337.sol
+[2026-03-18 05:00:11] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773790211306_5337.sol
+[2026-03-18 05:00:12] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 05:00:16] [ERROR] [smartpatch.analyzer.audit_engine] OpenRouter semantic audit failed: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8192 tokens, but can only afford 481. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_38ecZ3fzyW2zEFeEme8I8JZEyL1'}
+[2026-03-18 05:00:16] [INFO] [smartpatch.api.routes] Analyze completed in 4.916s with 3 vulnerabilities
+[2026-03-18 05:00:16] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773790211306_5337.sol
+[2026-03-18 05:00:16] [INFO] [smartpatch.api.routes] Patch request received with 3 vulnerabilities
+[2026-03-18 05:00:18] [ERROR] [smartpatch.llm.patch_generator] OpenRouter patch generation failed: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 4096 tokens, but can only afford 481. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_38ecZ3fzyW2zEFeEme8I8JZEyL1'}
+[2026-03-18 05:00:18] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773790218466_8759.sol
+[2026-03-18 05:00:18] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773790218466_8759.sol
+[2026-03-18 05:00:20] [WARNING] [smartpatch.validator.patch_validator] Validation fallback to heuristic scanner due to: Slither returned empty JSON output. 'C:\Users\USER\.solc-select\artifacts\solc-0.8.34\solc-0.8.34 --version' running
+'C:\Users\USER\.solc-select\artifacts\solc-0.8.34\solc-0.8.34 @=node_modules/@ C:\Users\USER\AppData\Local\Temp\smartpatch_1773790218466_8759.sol --combined-json abi,ast,bin,bin-runtime,srcmap,srcmap-runtime,userdoc,devdoc,hashes --allow-paths .,C:\Users\USER\AppData\Local\Temp' running
+Compilation warnings/errors on C:\Users\USER\AppData\Local\Temp\smartpatch_1773790218466_8759.sol:
+Error: Invalid token.
+
+  --> C:/Users/USER/AppData/Local/Temp/smartpatch_1773790218466_8759.sol:23:58:
+
+   |
+
+23 |         (bool success,) = msg.sender.call{value: amount}(\"\");
+
+   |                                                          ^
+
+
+
+
+Traceback (most recent call last):
+  File "C:\Users\USER\AppData\Roaming\Python\Python314\site-packages\crytic_compile\platform\solc.py", line 581, in _run_solc
+    ret: Dict = json.loads(stdout)
+                ~~~~~~~~~~^^^^^^^^
+  File "C:\Python314\Lib\json\__init__.py", line 352, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Python314\Lib\json\decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\json\decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\USER\AppData\Roaming\Python\Python314\site-packages\slither\__main__.py", line 972, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python314\site-packages\slither\__main__.py", line 760, in main
+    main_impl(all_detector_classes=detectors, all_printer_classes=printers)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python314\site-packages\slither\__main__.py", line 865, in main_impl
+    ) = process_all(filename, args, detector_classes, printer_classes)
+        ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python314\site-packages\slither\__main__.py", line 95, in process_all
+    compilations = compile_all(target, **vars(args))
+  File "C:\Users\USER\AppData\Roaming\Python\Python314\site-packages\crytic_compile\crytic_compile.py", line 722, in compile_all
+    compilations.append(CryticCompile(target, **kwargs))
+                        ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python314\site-packages\crytic_compile\crytic_compile.py", line 211, in __init__
+    self._compile(**kwargs)
+    ~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python314\site-packages\crytic_compile\crytic_compile.py", line 633, in _compile
+    self._platform.compile(self, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\AppData\Roaming\Python\Python314\site-packages\crytic_compile\platform\solc.py", line 150, in compile
+    targets_json = _get_targets_json(compilation_unit, self._target, **kwargs)
+  File "C:\Users\USER\AppData\Roaming\Python\Python314\site-packages\crytic_compile\platform\solc.py", line 279, in _get_targets_json
+    return _run_solc(
+        compilation_unit,
+    ...<6 lines>...
+        force_legacy_json=force_legacy_json,
+    )
+  File "C:\Users\USER\AppData\Roaming\Python\Python314\site-packages\crytic_compile\platform\solc.py", line 585, in _run_solc
+    raise InvalidCompilation(f"Invalid solc compilation {stderr}")
+crytic_compile.platform.exceptions.InvalidCompilation: Invalid solc compilation Error: Invalid token.
+
+  --> C:/Users/USER/AppData/Local/Temp/smartpatch_1773790218466_8759.sol:23:58:
+
+   |
+
+23 |         (bool success,) = msg.sender.call{value: amount}(\"\");
+
+   |                                                          ^
+[2026-03-18 05:00:20] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773790218466_8759.sol
+[2026-03-18 05:00:20] [INFO] [smartpatch.api.routes] Patch completed in 4.209s with status=FAILED
+[2026-03-18 05:00:21] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 05:00:21] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: github_p...
+[2026-03-18 05:00:23] [INFO] [smartpatch.utils.git_handler] File contract_patched.sol exists, SHA: dab68fdb901a96595e032a7c39abf16ed59c7de3
+[2026-03-18 05:00:25] [INFO] [smartpatch.utils.git_handler] Successfully pushed contract_patched.sol to jenars666/contract on branch main
+[2026-03-18 05:00:27] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 05:01:45] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 05:02:00] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 05:02:00] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773790320803_2890.sol
+[2026-03-18 05:02:00] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773790320803_2890.sol
+[2026-03-18 05:02:02] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 05:02:05] [ERROR] [smartpatch.analyzer.audit_engine] OpenRouter semantic audit failed: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8192 tokens, but can only afford 481. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_38ecZ3fzyW2zEFeEme8I8JZEyL1'}
+[2026-03-18 05:02:05] [INFO] [smartpatch.api.routes] Analyze completed in 5.074s with 3 vulnerabilities
+[2026-03-18 05:02:05] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773790320803_2890.sol
+[2026-03-18 05:02:05] [INFO] [smartpatch.api.routes] Patch request received with 3 vulnerabilities
+[2026-03-18 05:02:07] [ERROR] [smartpatch.llm.patch_generator] OpenRouter patch generation failed: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 4096 tokens, but can only afford 481. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_38ecZ3fzyW2zEFeEme8I8JZEyL1'}
+[2026-03-18 05:02:07] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773790327413_1685.sol
+[2026-03-18 05:02:07] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773790327413_1685.sol
+[2026-03-18 05:02:08] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 05:02:08] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773790327413_1685.sol
+[2026-03-18 05:02:08] [INFO] [smartpatch.api.routes] Patch completed in 2.727s with status=FAILED
+[2026-03-18 05:02:10] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 05:02:10] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: github_p...
+[2026-03-18 05:02:11] [INFO] [smartpatch.utils.git_handler] File contract_patched.sol exists, SHA: 121ee293e186445f3b85a5886d1944f943b5e8e2
+[2026-03-18 05:02:13] [INFO] [smartpatch.utils.git_handler] Successfully pushed contract_patched.sol to jenars666/contract on branch main
+[2026-03-18 05:03:10] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 05:03:15] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 05:03:27] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 05:03:27] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773790407307_7078.sol
+[2026-03-18 05:03:27] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773790407307_7078.sol
+[2026-03-18 05:03:28] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 05:03:31] [ERROR] [smartpatch.analyzer.audit_engine] OpenRouter semantic audit failed: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8192 tokens, but can only afford 481. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_38ecZ3fzyW2zEFeEme8I8JZEyL1'}
+[2026-03-18 05:03:31] [INFO] [smartpatch.api.routes] Analyze completed in 4.590s with 3 vulnerabilities
+[2026-03-18 05:03:31] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773790407307_7078.sol
+[2026-03-18 05:03:31] [INFO] [smartpatch.api.routes] Patch request received with 3 vulnerabilities
+[2026-03-18 05:03:33] [ERROR] [smartpatch.llm.patch_generator] OpenRouter patch generation failed: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 4096 tokens, but can only afford 481. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_38ecZ3fzyW2zEFeEme8I8JZEyL1'}
+[2026-03-18 05:03:33] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773790413432_1767.sol
+[2026-03-18 05:03:33] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773790413432_1767.sol
+[2026-03-18 05:03:34] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 05:03:34] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773790413432_1767.sol
+[2026-03-18 05:03:34] [INFO] [smartpatch.api.routes] Patch completed in 2.790s with status=IMPROVED
+[2026-03-18 05:03:36] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 05:03:36] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: github_p...
+[2026-03-18 05:03:37] [INFO] [smartpatch.utils.git_handler] File contract_patched.sol exists, SHA: 96afe206a9e209e9b311ab0fd965d6ff06427a1d
+[2026-03-18 05:03:39] [INFO] [smartpatch.utils.git_handler] Successfully pushed contract_patched.sol to jenars666/contract on branch main
+[2026-03-18 05:05:47] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 05:06:09] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 05:07:46] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 05:07:46] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773790666609_8175.sol
+[2026-03-18 05:07:46] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773790666609_8175.sol
+[2026-03-18 05:07:47] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 05:07:51] [ERROR] [smartpatch.analyzer.audit_engine] OpenRouter semantic audit failed: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8192 tokens, but can only afford 481. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_38ecZ3fzyW2zEFeEme8I8JZEyL1'}
+[2026-03-18 05:07:51] [INFO] [smartpatch.api.routes] Analyze completed in 4.995s with 3 vulnerabilities
+[2026-03-18 05:07:51] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773790666609_8175.sol
+[2026-03-18 05:07:51] [INFO] [smartpatch.api.routes] Patch request received with 3 vulnerabilities
+[2026-03-18 05:07:52] [ERROR] [smartpatch.llm.patch_generator] OpenRouter patch generation failed: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 4096 tokens, but can only afford 481. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_38ecZ3fzyW2zEFeEme8I8JZEyL1'}
+[2026-03-18 05:07:52] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773790672932_6933.sol
+[2026-03-18 05:07:52] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773790672932_6933.sol
+[2026-03-18 05:07:54] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 05:07:54] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773790672932_6933.sol
+[2026-03-18 05:07:54] [INFO] [smartpatch.api.routes] Patch completed in 2.651s with status=IMPROVED
+[2026-03-18 05:07:55] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 05:07:55] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: github_p...
+[2026-03-18 05:07:57] [INFO] [smartpatch.utils.git_handler] File contract_patched.sol exists, SHA: 4aabb80d0d2fafe3b24c14675ee71dde4245078a
+[2026-03-18 05:07:58] [INFO] [smartpatch.utils.git_handler] Successfully pushed contract_patched.sol to jenars666/contract on branch main
+[2026-03-18 05:08:13] [INFO] [smartpatch.api.routes] Push request received for file: contract_patched.sol
+[2026-03-18 05:08:13] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: github_p...
+[2026-03-18 05:08:14] [INFO] [smartpatch.utils.git_handler] File contract_patched.sol exists, SHA: 6afa578ffe5256a14b0ed1d4c9434a064f5754d7
+[2026-03-18 05:08:15] [INFO] [smartpatch.utils.git_handler] Successfully pushed contract_patched.sol to jenars666/contract on branch main
+[2026-03-18 05:09:29] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 05:10:45] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 05:10:45] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773790845629_4558.sol
+[2026-03-18 05:10:45] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773790845629_4558.sol
+[2026-03-18 05:10:46] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 05:10:50] [ERROR] [smartpatch.analyzer.audit_engine] OpenRouter semantic audit failed: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8192 tokens, but can only afford 481. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_38ecZ3fzyW2zEFeEme8I8JZEyL1'}
+[2026-03-18 05:10:50] [INFO] [smartpatch.api.routes] Analyze completed in 5.198s with 3 vulnerabilities
+[2026-03-18 05:10:50] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773790845629_4558.sol
+[2026-03-18 05:10:50] [INFO] [smartpatch.api.routes] Patch request received with 3 vulnerabilities
+[2026-03-18 05:10:53] [ERROR] [smartpatch.llm.patch_generator] OpenRouter patch generation failed: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 4096 tokens, but can only afford 481. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_38ecZ3fzyW2zEFeEme8I8JZEyL1'}
+[2026-03-18 05:10:53] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773790853253_7421.sol
+[2026-03-18 05:10:53] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773790853253_7421.sol
+[2026-03-18 05:10:54] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 05:10:54] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773790853253_7421.sol
+[2026-03-18 05:10:54] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: github_p...
+[2026-03-18 05:10:55] [INFO] [smartpatch.utils.git_handler] File contract_patched.sol exists, SHA: 6afa578ffe5256a14b0ed1d4c9434a064f5754d7
+[2026-03-18 05:10:57] [INFO] [smartpatch.utils.git_handler] Successfully pushed contract_patched.sol to jenars666/contract on branch main
+[2026-03-18 05:10:57] [INFO] [smartpatch.api.routes] Auto-push to GitHub succeeded: https://github.com/jenars666/contract/blob/main/contract_patched.sol
+[2026-03-18 05:10:57] [INFO] [smartpatch.api.routes] Patch completed in 3.699s with status=IMPROVED
+[2026-03-18 05:12:24] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 05:12:30] [INFO] [smartpatch.main] SmartPatch backend started on port 8000
+[2026-03-18 05:13:43] [INFO] [smartpatch.api.routes] Analyze request received: filename=contract.sol
+[2026-03-18 05:13:43] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773791023623_5379.sol
+[2026-03-18 05:13:43] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773791023623_5379.sol
+[2026-03-18 05:13:45] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 05:13:49] [ERROR] [smartpatch.analyzer.audit_engine] OpenRouter semantic audit failed: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 8192 tokens, but can only afford 481. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_38ecZ3fzyW2zEFeEme8I8JZEyL1'}
+[2026-03-18 05:13:49] [INFO] [smartpatch.api.routes] Analyze completed in 5.457s with 3 vulnerabilities
+[2026-03-18 05:13:49] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773791023623_5379.sol
+[2026-03-18 05:13:49] [INFO] [smartpatch.api.routes] Patch request received with 3 vulnerabilities
+[2026-03-18 05:13:51] [ERROR] [smartpatch.llm.patch_generator] OpenRouter patch generation failed: Error code: 402 - {'error': {'message': 'This request requires more credits, or fewer max_tokens. You requested up to 4096 tokens, but can only afford 481. To increase, visit https://openrouter.ai/settings/credits and upgrade to a paid account', 'code': 402, 'metadata': {'provider_name': None}}, 'user_id': 'user_38ecZ3fzyW2zEFeEme8I8JZEyL1'}
+[2026-03-18 05:13:51] [INFO] [smartpatch.utils.file_handler] Created temp solidity file at C:\Users\USER\AppData\Local\Temp\smartpatch_1773791031381_9167.sol
+[2026-03-18 05:13:51] [INFO] [smartpatch.analyzer.slither_runner] Running slither on C:\Users\USER\AppData\Local\Temp\smartpatch_1773791031381_9167.sol
+[2026-03-18 05:13:52] [WARNING] [smartpatch.analyzer.slither_runner] solc compiler not found or broken — using heuristic fallback scanner
+[2026-03-18 05:13:52] [INFO] [smartpatch.utils.file_handler] Deleted temp file C:\Users\USER\AppData\Local\Temp\smartpatch_1773791031381_9167.sol
+[2026-03-18 05:13:52] [INFO] [smartpatch.utils.git_handler] Using GitHub token starting with: github_p...
+[2026-03-18 05:13:54] [INFO] [smartpatch.utils.git_handler] File contract_patched.sol exists, SHA: 6afa578ffe5256a14b0ed1d4c9434a064f5754d7
+[2026-03-18 05:13:55] [INFO] [smartpatch.utils.git_handler] Successfully pushed contract_patched.sol to jenars666/contract on branch main
+[2026-03-18 05:13:55] [INFO] [smartpatch.api.routes] Auto-push to GitHub succeeded: https://github.com/jenars666/contract/blob/main/contract_patched.sol
+[2026-03-18 05:13:55] [INFO] [smartpatch.api.routes] Patch completed in 3.776s with status=IMPROVED

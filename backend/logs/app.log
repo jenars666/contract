@@ -1,0 +1,86 @@
+2026-03-17 18:00:13,721 - matrix_patcher - DEBUG - Created temporary file: C:\Users\USER\AppData\Local\Temp\contract_i_6hkecu.sol
+2026-03-17 18:00:13,721 - matrix_patcher - INFO - Running Slither on C:\Users\USER\AppData\Local\Temp\contract_i_6hkecu.sol
+2026-03-17 18:00:16,725 - matrix_patcher - DEBUG - Cleaned up temporary file: C:\Users\USER\AppData\Local\Temp\contract_i_6hkecu.sol
+2026-03-17 18:50:11,574 - matrix_patcher - DEBUG - Created temporary file: C:\Users\USER\AppData\Local\Temp\contract_hoxv8dt9.sol
+2026-03-17 18:50:11,574 - matrix_patcher - INFO - Running Slither on C:\Users\USER\AppData\Local\Temp\contract_hoxv8dt9.sol
+2026-03-17 18:50:17,262 - matrix_patcher - DEBUG - Cleaned up temporary file: C:\Users\USER\AppData\Local\Temp\contract_hoxv8dt9.sol
+2026-03-17 18:50:31,573 - matrix_patcher - INFO - Generating patch using anthropic
+2026-03-17 18:50:31,575 - matrix_patcher - ERROR - Anthropic error: No module named 'anthropic'
+2026-03-17 18:50:31,575 - matrix_patcher - ERROR - Error generating patch: No module named 'anthropic'
+2026-03-17 18:50:31,575 - matrix_patcher - ERROR - Patching error: No module named 'anthropic'
+2026-03-17 18:50:35,600 - matrix_patcher - INFO - Generating patch using anthropic
+2026-03-17 18:50:35,601 - matrix_patcher - ERROR - Anthropic error: No module named 'anthropic'
+2026-03-17 18:50:35,601 - matrix_patcher - ERROR - Error generating patch: No module named 'anthropic'
+2026-03-17 18:50:35,601 - matrix_patcher - ERROR - Patching error: No module named 'anthropic'
+2026-03-17 18:50:37,219 - matrix_patcher - INFO - Generating patch using anthropic
+2026-03-17 18:50:37,220 - matrix_patcher - ERROR - Anthropic error: No module named 'anthropic'
+2026-03-17 18:50:37,221 - matrix_patcher - ERROR - Error generating patch: No module named 'anthropic'
+2026-03-17 18:50:37,221 - matrix_patcher - ERROR - Patching error: No module named 'anthropic'
+2026-03-17 18:50:42,382 - matrix_patcher - ERROR - Boss explanation error: No module named 'anthropic'
+2026-03-17 18:50:44,578 - matrix_patcher - DEBUG - Created temporary file: C:\Users\USER\AppData\Local\Temp\contract_h975j5br.sol
+2026-03-17 18:50:44,578 - matrix_patcher - INFO - Running Slither on C:\Users\USER\AppData\Local\Temp\contract_h975j5br.sol
+2026-03-17 18:50:47,150 - matrix_patcher - DEBUG - Cleaned up temporary file: C:\Users\USER\AppData\Local\Temp\contract_h975j5br.sol
+2026-03-17 18:50:50,234 - matrix_patcher - DEBUG - Created temporary file: C:\Users\USER\AppData\Local\Temp\contract_xv0zinfx.sol
+2026-03-17 18:50:50,235 - matrix_patcher - INFO - Running Slither on C:\Users\USER\AppData\Local\Temp\contract_xv0zinfx.sol
+2026-03-17 18:50:53,152 - matrix_patcher - DEBUG - Cleaned up temporary file: C:\Users\USER\AppData\Local\Temp\contract_xv0zinfx.sol
+2026-03-17 18:50:53,669 - matrix_patcher - INFO - Generating patch using anthropic
+2026-03-17 18:50:53,671 - matrix_patcher - ERROR - Anthropic error: No module named 'anthropic'
+2026-03-17 18:50:53,671 - matrix_patcher - ERROR - Error generating patch: No module named 'anthropic'
+2026-03-17 18:50:53,671 - matrix_patcher - ERROR - Patching error: No module named 'anthropic'
+2026-03-17 18:50:55,725 - matrix_patcher - INFO - Generating patch using anthropic
+2026-03-17 18:50:55,726 - matrix_patcher - ERROR - Anthropic error: No module named 'anthropic'
+2026-03-17 18:50:55,727 - matrix_patcher - ERROR - Error generating patch: No module named 'anthropic'
+2026-03-17 18:50:55,727 - matrix_patcher - ERROR - Patching error: No module named 'anthropic'
+2026-03-17 18:50:56,175 - matrix_patcher - INFO - Generating patch using anthropic
+2026-03-17 18:50:56,176 - matrix_patcher - ERROR - Anthropic error: No module named 'anthropic'
+2026-03-17 18:50:56,177 - matrix_patcher - ERROR - Error generating patch: No module named 'anthropic'
+2026-03-17 18:50:56,177 - matrix_patcher - ERROR - Patching error: No module named 'anthropic'
+2026-03-17 18:50:56,346 - matrix_patcher - INFO - Generating patch using anthropic
+2026-03-17 18:50:56,347 - matrix_patcher - ERROR - Anthropic error: No module named 'anthropic'
+2026-03-17 18:50:56,348 - matrix_patcher - ERROR - Error generating patch: No module named 'anthropic'
+2026-03-17 18:50:56,348 - matrix_patcher - ERROR - Patching error: No module named 'anthropic'
+2026-03-17 18:50:56,573 - matrix_patcher - INFO - Generating patch using anthropic
+2026-03-17 18:50:56,574 - matrix_patcher - ERROR - Anthropic error: No module named 'anthropic'
+2026-03-17 18:50:56,574 - matrix_patcher - ERROR - Error generating patch: No module named 'anthropic'
+2026-03-17 18:50:56,574 - matrix_patcher - ERROR - Patching error: No module named 'anthropic'
+2026-03-17 18:51:40,681 - matrix_patcher - DEBUG - Created temporary file: C:\Users\USER\AppData\Local\Temp\contract_fv09qj0h.sol
+2026-03-17 18:51:40,681 - matrix_patcher - INFO - Running Slither on C:\Users\USER\AppData\Local\Temp\contract_fv09qj0h.sol
+2026-03-17 18:51:43,741 - matrix_patcher - DEBUG - Cleaned up temporary file: C:\Users\USER\AppData\Local\Temp\contract_fv09qj0h.sol
+2026-03-17 18:53:00,802 - matrix_patcher - DEBUG - Created temporary file: C:\Users\USER\AppData\Local\Temp\contract_odu0jywz.sol
+2026-03-17 18:53:00,802 - matrix_patcher - INFO - Running Slither on C:\Users\USER\AppData\Local\Temp\contract_odu0jywz.sol
+2026-03-17 18:53:03,378 - matrix_patcher - DEBUG - Cleaned up temporary file: C:\Users\USER\AppData\Local\Temp\contract_odu0jywz.sol
+2026-03-17 18:53:05,449 - matrix_patcher - INFO - Generating patch using anthropic
+2026-03-17 18:53:05,450 - matrix_patcher - ERROR - Anthropic error: No module named 'anthropic'
+2026-03-17 18:53:05,450 - matrix_patcher - ERROR - Error generating patch: No module named 'anthropic'
+2026-03-17 18:53:05,450 - matrix_patcher - ERROR - Patching error: No module named 'anthropic'
+2026-03-17 19:14:30,442 - matrix_patcher - DEBUG - Created temporary file: C:\Users\USER\AppData\Local\Temp\contract_yxp0ymq_.sol
+2026-03-17 19:14:30,443 - matrix_patcher - INFO - Running Slither on C:\Users\USER\AppData\Local\Temp\contract_yxp0ymq_.sol
+2026-03-17 19:14:33,466 - matrix_patcher - DEBUG - Cleaned up temporary file: C:\Users\USER\AppData\Local\Temp\contract_yxp0ymq_.sol
+2026-03-17 19:14:35,736 - matrix_patcher - INFO - Generating patch using deepseek
+2026-03-17 19:14:39,191 - matrix_patcher - ERROR - DeepSeek error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-03-17 19:14:39,191 - matrix_patcher - ERROR - Error generating patch: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-03-17 19:14:39,191 - matrix_patcher - ERROR - Patching error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-03-17 19:17:47,555 - matrix_patcher - DEBUG - Created temporary file: C:\Users\USER\AppData\Local\Temp\contract_u2v5f4pp.sol
+2026-03-17 19:17:47,555 - matrix_patcher - INFO - Running Slither on C:\Users\USER\AppData\Local\Temp\contract_u2v5f4pp.sol
+2026-03-17 19:17:51,106 - matrix_patcher - DEBUG - Cleaned up temporary file: C:\Users\USER\AppData\Local\Temp\contract_u2v5f4pp.sol
+2026-03-17 19:17:52,556 - matrix_patcher - INFO - Generating patch using deepseek
+2026-03-17 19:17:55,774 - matrix_patcher - ERROR - DeepSeek error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-03-17 19:17:55,774 - matrix_patcher - ERROR - Error generating patch: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-03-17 19:17:55,775 - matrix_patcher - ERROR - Patching error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-03-17 19:18:46,647 - matrix_patcher - DEBUG - Created temporary file: C:\Users\USER\AppData\Local\Temp\contract_ztfbg1c2.sol
+2026-03-17 19:18:46,648 - matrix_patcher - INFO - Running Slither on C:\Users\USER\AppData\Local\Temp\contract_ztfbg1c2.sol
+2026-03-17 19:18:50,253 - matrix_patcher - DEBUG - Cleaned up temporary file: C:\Users\USER\AppData\Local\Temp\contract_ztfbg1c2.sol
+2026-03-17 19:20:23,506 - matrix_patcher - ERROR - Error creating temp file: 'charmap' codec can't encode character '\U0001f534' in position 346: character maps to <undefined>
+2026-03-17 19:20:23,507 - matrix_patcher - ERROR - Analysis error: 'charmap' codec can't encode character '\U0001f534' in position 346: character maps to <undefined>
+2026-03-17 19:20:24,935 - matrix_patcher - ERROR - Error creating temp file: 'charmap' codec can't encode character '\U0001f534' in position 346: character maps to <undefined>
+2026-03-17 19:20:24,935 - matrix_patcher - ERROR - Analysis error: 'charmap' codec can't encode character '\U0001f534' in position 346: character maps to <undefined>
+2026-03-17 19:21:37,630 - matrix_patcher - DEBUG - Created temporary file: C:\Users\USER\AppData\Local\Temp\contract_gb7t5yi9.sol
+2026-03-17 19:21:37,630 - matrix_patcher - INFO - Running Slither on C:\Users\USER\AppData\Local\Temp\contract_gb7t5yi9.sol
+2026-03-17 19:21:41,218 - matrix_patcher - DEBUG - Cleaned up temporary file: C:\Users\USER\AppData\Local\Temp\contract_gb7t5yi9.sol
+2026-03-17 19:21:43,330 - matrix_patcher - INFO - Generating patch using deepseek
+2026-03-17 19:21:44,673 - matrix_patcher - ERROR - DeepSeek error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-03-17 19:21:44,673 - matrix_patcher - ERROR - Error generating patch: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-03-17 19:21:44,674 - matrix_patcher - ERROR - Patching error: Error code: 402 - {'error': {'message': 'Insufficient Balance', 'type': 'unknown_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-03-17 19:22:23,577 - matrix_patcher - DEBUG - Created temporary file: C:\Users\USER\AppData\Local\Temp\contract_lhb6dlbb.sol
+2026-03-17 19:22:23,577 - matrix_patcher - INFO - Running Slither on C:\Users\USER\AppData\Local\Temp\contract_lhb6dlbb.sol
+2026-03-17 19:22:26,713 - matrix_patcher - DEBUG - Cleaned up temporary file: C:\Users\USER\AppData\Local\Temp\contract_lhb6dlbb.sol

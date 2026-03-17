@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SmartPatch — Quick Demo</title>
+<style>
+  :root {
+    --bg: #0d1117; --card: #161b22; --border: #30363d;
+    --text: #e6edf3; --muted: #8b949e;
+    --green: #3fb950; --yellow: #d29922; --red: #f85149; --blue: #58a6ff;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; padding: 24px; }
+  h1 { font-size: 22px; margin-bottom: 4px; }
+  h1 span { color: var(--blue); }
+  .sub { color: var(--muted); font-size: 13px; margin-bottom: 20px; }
+
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 18px; margin-bottom: 16px; }
+  label { font-size: 13px; color: var(--muted); display: block; margin-bottom: 6px; }
+  textarea {
+    width: 100%; min-height: 180px; background: var(--bg); color: var(--text);
+    border: 1px solid var(--border); border-radius: 6px; padding: 10px;
+    font-family: monospace; font-size: 13px; resize: vertical;
+  }
+  .row { display: flex; gap: 10px; margin-top: 10px; }
+  button {
+    padding: 8px 18px; border-radius: 6px; border: 1px solid var(--border);
+    background: var(--card); color: var(--text); font-size: 14px; cursor: pointer; font-weight: 500;
+  }
+  button:hover:not(:disabled) { background: #21262d; border-color: var(--muted); }
+  button:disabled { opacity: .5; cursor: not-allowed; }
+  .btn-primary { background: #238636; border-color: transparent; color: #fff; }
+  .btn-primary:hover:not(:disabled) { background: #2ea043; }
+  .btn-patch { background: #1f6feb; border-color: transparent; color: #fff; }
+  .btn-patch:hover:not(:disabled) { background: #388bfd; }
+
+  /* Score */
+  .score-row { display: flex; align-items: center; gap: 20px; }
+  .score-num { font-size: 48px; font-weight: bold; }
+  .score-bar-wrap { flex: 1; }
+  .score-bar-bg { background: #21262d; border-radius: 99px; height: 12px; overflow: hidden; }
+  .score-bar-fill { height: 100%; border-radius: 99px; transition: width .6s; }
+  .score-label { font-size: 13px; font-weight: bold; margin-top: 6px; letter-spacing: .5px; }
+
+  /* Vuln cards */
+  .vuln { border-left: 4px solid; border-radius: 6px; padding: 10px 14px; margin-bottom: 10px; }
+  .vuln-head { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; font-weight: bold; font-size: 14px; }
+  .badge { font-size: 11px; font-weight: bold; padding: 2px 7px; border-radius: 4px; color: #fff; }
+  .chip { margin-left: auto; background: #21262d; color: var(--muted); font-size: 11px; padding: 2px 8px; border-radius: 12px; }
+  .vuln-desc { font-size: 13px; color: var(--muted); line-height: 1.5; }
+
+  /* Diff */
+  .diff-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .diff-panel { border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+  .diff-header { padding: 8px 14px; background: var(--bg); border-bottom: 1px solid var(--border); font-size: 13px; font-weight: bold; }
+  pre { margin: 0; padding: 12px; font-family: monospace; font-size: 12.5px; color: var(--text); background: var(--card); overflow-x: auto; max-height: 380px; overflow-y: auto; line-height: 1.6; }
+
+  /* Validation */
+  .val-row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .pill { padding: 4px 14px; border-radius: 20px; font-size: 13px; font-weight: bold; border: 1px solid; }
+
+  .hidden { display: none; }
+  .spinner { display: inline-block; width: 14px; height: 14px; border: 2px solid rgba(255,255,255,.3); border-top-color: #fff; border-radius: 50%; animation: spin .8s linear infinite; vertical-align: middle; margin-right: 6px; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .error { background: rgba(248,81,73,.1); border: 1px solid var(--red); color: var(--red); padding: 12px 16px; border-radius: 6px; margin-bottom: 14px; font-size: 14px; }
+
+  @media (max-width: 700px) { .diff-grid { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<h1>Smart<span>Patch</span></h1>
+<p class="sub">Smart Contract Vulnerability Analyzer &amp; Auto-Patcher</p>
+
+<div id="error-box" class="error hidden"></div>
+
+<!-- Input -->
+<div class="card">
+  <label>Solidity Contract</label>
+  <textarea id="code" placeholder="Paste your Solidity contract here…">// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract Test {
+    mapping(address => uint) public balances;
+
+    function withdraw() public {
+        uint amount = balances[msg.sender];
+        (bool success,) = msg.sender.call{value: amount}("");
+        require(success);
+        balances[msg.sender] = 0;
+    }
+}</textarea>
+  <div class="row">
+    <button onclick="clearAll()">Clear</button>
+    <button class="btn-primary" id="btn-analyze" onclick="analyze()">🔍 Analyze</button>
+  </div>
+</div>
+
+<!-- Risk Score -->
+<div class="card hidden" id="section-score">
+  <label>📊 Risk Score</label>
+  <div class="score-row">
+    <div class="score-num" id="score-num">—</div>
+    <div class="score-bar-wrap">
+      <div class="score-bar-bg"><div class="score-bar-fill" id="score-bar" style="width:0%"></div></div>
+      <div class="score-label" id="score-label"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Vulnerabilities -->
+<div class="card hidden" id="section-vulns">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px">
+    <label style="margin:0">🐛 Vulnerabilities (<span id="vuln-count">0</span>)</label>
+    <button class="btn-patch" id="btn-patch" onclick="patch()">🛠 Generate Patch</button>
+  </div>
+  <div id="vuln-list"></div>
+</div>
+
+<!-- Patch -->
+<div class="card hidden" id="section-patch">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
+    <label style="margin:0">🛠 Patch Result</label>
+    <button onclick="document.getElementById('section-patch').classList.add('hidden')">✕ Close</button>
+  </div>
+
+  <!-- Validation -->
+  <div class="val-row" id="val-row" style="margin-bottom:14px"></div>
+
+  <!-- Side-by-side diff -->
+  <div class="diff-grid">
+    <div class="diff-panel">
+      <div class="diff-header" style="border-top:3px solid var(--red)">🔴 Original</div>
+      <pre id="orig-code"></pre>
+    </div>
+    <div class="diff-panel">
+      <div class="diff-header" style="border-top:3px solid var(--green)">🟢 Patched</div>
+      <pre id="patched-code"></pre>
+    </div>
+  </div>
+
+  <!-- Explanation -->
+  <div id="explanation" style="margin-top:14px;font-size:14px;color:var(--muted);line-height:1.7"></div>
+</div>
+
+<script>
+const API = 'http://localhost:8000/api';
+const SEV = {
+  High:          { color: '#f85149', bg: 'rgba(248,81,73,.1)'  },
+  Medium:        { color: '#d29922', bg: 'rgba(210,153,34,.1)' },
+  Low:           { color: '#3fb950', bg: 'rgba(63,185,80,.1)'  },
+  Informational: { color: '#58a6ff', bg: 'rgba(88,166,255,.1)' },
+};
+
+let _vulns = [], _code = '';
+
+function show(id)  { document.getElementById(id).classList.remove('hidden'); }
+function hide(id)  { document.getElementById(id).classList.add('hidden'); }
+function err(msg)  { const b = document.getElementById('error-box'); b.textContent = '⚠️ ' + msg; show('error-box'); }
+function clearErr(){ hide('error-box'); }
+
+function riskColor(s) { return s >= 70 ? '#3fb950' : s >= 40 ? '#d29922' : '#f85149'; }
+function riskLabel(s) { return s >= 70 ? '✅ LOW RISK' : s >= 40 ? '⚠️ MEDIUM RISK' : '🔴 HIGH RISK'; }
+
+function clearAll() {
+  document.getElementById('code').value = '';
+  ['section-score','section-vulns','section-patch','error-box'].forEach(hide);
+  _vulns = []; _code = '';
+}
+
+async function analyze() {
+  clearErr();
+  _code = document.getElementById('code').value.trim();
+  if (!_code) return err('Paste Solidity code first.');
+
+  const btn = document.getElementById('btn-analyze');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span>Analyzing…';
+  ['section-score','section-vulns','section-patch'].forEach(hide);
+
+  try {
+    const res  = await fetch(`${API}/analyze`, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({code: _code}) });
+    const data = await res.json();
+    if (data.error) throw new Error(data.error);
+
+    _vulns = data.vulnerabilities || [];
+    renderScore(data.risk_score);
+    renderVulns(_vulns);
+  } catch(e) {
+    err(e.message);
+  } finally {
+    btn.disabled = false;
+    btn.innerHTML = '🔍 Analyze';
+  }
+}
+
+async function patch() {
+  clearErr();
+  const btn = document.getElementById('btn-patch');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="spinner"></span>Patching…';
+  hide('section-patch');
+
+  try {
+    const res  = await fetch(`${API}/patch`, { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({code: _code, vulnerabilities: _vulns}) });
+    const data = await res.json();
+    if (data.error) throw new Error(data.error);
+    renderPatch(data);
+  } catch(e) {
+    err(e.message);
+  } finally {
+    btn.disabled = false;
+    btn.innerHTML = '🛠 Generate Patch';
+  }
+}
+
+function renderScore(score) {
+  const c = riskColor(score);
+  document.getElementById('score-num').textContent   = score;
+  document.getElementById('score-num').style.color   = c;
+  document.getElementById('score-bar').style.width   = score + '%';
+  document.getElementById('score-bar').style.background = c;
+  document.getElementById('score-label').textContent = riskLabel(score);
+  document.getElementById('score-label').style.color = c;
+  show('section-score');
+}
+
+function renderVulns(vulns) {
+  document.getElementById('vuln-count').textContent = vulns.length;
+  const list = document.getElementById('vuln-list');
+  if (!vulns.length) {
+    list.innerHTML = '<p style="color:var(--green)">✅ No vulnerabilities detected.</p>';
+    document.getElementById('btn-patch').style.display = 'none';
+  } else {
+    document.getElementById('btn-patch').style.display = '';
+    list.innerHTML = vulns.map(v => {
+      const s = SEV[v.severity] || SEV.Informational;
+      return `<div class="vuln" style="border-left-color:${s.color};background:${s.bg}">
+        <div class="vuln-head">
+          ${v.type}
+          <span class="badge" style="background:${s.color}">${v.severity}</span>
+          ${v.line_number ? `<span class="chip">Line ${v.line_number}</span>` : ''}
+        </div>
+        <div class="vuln-desc">${v.description}</div>
+      </div>`;
+    }).join('');
+  }
+  show('section-vulns');
+}
+
+function renderPatch(data) {
+  // Validation row
+  const passed = data.validation_passed;
+  const oc = riskColor(data.old_risk_score), nc = riskColor(data.new_risk_score);
+  document.getElementById('val-row').innerHTML = `
+    <span class="pill" style="color:${passed?'#3fb950':'#d29922'};border-color:${passed?'#3fb950':'#d29922'};background:${passed?'rgba(63,185,80,.1)':'rgba(210,153,34,.1)'}">
+      ${passed ? '✅ Patch Validated' : '⚠️ Review Needed'}
+    </span>
+    <span style="font-size:14px">Risk: <b style="color:${oc}">${data.old_risk_score}</b> → <b style="color:${nc}">${data.new_risk_score}</b></span>
+    <span style="font-size:14px;color:var(--muted)">Vulns: ${_vulns.length} → ${(data.remaining_vulnerabilities||[]).length}</span>
+  `;
+
+  document.getElementById('orig-code').textContent    = _code;
+  document.getElementById('patched-code').textContent = data.patched_code || '';
+
+  const exp = document.getElementById('explanation');
+  exp.innerHTML = data.explanation ? `💡 <strong>What was fixed:</strong> ${data.explanation}` : '';
+
+  show('section-patch');
+}
+</script>
+</body>
+</html>
