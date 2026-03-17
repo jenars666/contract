@@ -14,32 +14,32 @@ contract PaymentVault {
         balances[msg.sender] += msg.value;
     }
 
-
+    // ❌ Vulnerable withdraw (Reentrancy)
     function withdraw(uint256 amount) public {
         require(balances[msg.sender] >= amount, "Insufficient balance");
 
         // External call before state update
-        balances[msg.sender] -= amount; // SECURITY FIX: state update before external call (CEI)
+        balances[msg.sender] -= amount;
         (bool success,) = msg.sender.call{value: amount}("");
         require(success, "Transfer failed");
     }
 
-
+    // ❌ tx.origin vulnerability
     function emergencyWithdraw() public {
-        require(msg.sender == owner, "Not owner"); // SECURITY FIX: replaced tx.origin with msg.sender
+        require(msg.sender == owner, "Not owner");
 
         payable(msg.sender).transfer(address(this).balance);
     }
 
-
+    // ❌ Missing access control
     function setOwner(address newOwner) public {
-        require(msg.sender == owner, "Not owner"); // SECURITY FIX: access control added
+        require(msg.sender == owner, "Not owner");
         owner = newOwner;
     }
 
-
+    // ❌ Unsafe arithmetic (simulated logic bug)
     function increaseBalance(uint256 value) public {
-        balances[msg.sender] += value; // SECURITY FIX: removed unchecked block
+        balances[msg.sender] += value;
     }
 
     receive() external payable {}
